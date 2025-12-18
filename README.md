@@ -23,14 +23,11 @@
 <div align="center">
 	<div align="center">
 		<a href="https://github.com/Joshua-Hermilly/MateZone">
-			<img width="1024" height="1024" alt="MateZone" src="https://github.com/user-attachments/assets/170f5614-7698-4288-9f19-8dcdede7e1e1" />
+			<img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
 		</a>
 	</div>
-	<br>
-	<a href="https://github.com/Joshua-Hermilly/MateZone">
-		<img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
-	</a>
-</div>
+	
+<div align="center" style="text-align: justify;">
 <b>MateZone</b> est une application de messagerie instantanée permettant aux utilisateurs de :<br>
 • Se connecter avec un pseudo et mot de passe<br>
 • S'inscrire pour créer un nouveau compte<br>
@@ -50,6 +47,15 @@ Sécurité, gestion des rôles, et support des images sont en cours d'intégrati
 <a href="https://m8yuriko.fr" target="_blank">
     <img src="https://img.shields.io/badge/Site%20web-m8yuriko.fr-3F51B5?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
+
+
+<div align="center">
+		<a href="https://github.com/Joshua-Hermilly/MateZone">
+			<img width="200" height="200" alt="MateZone" src="https://github.com/user-attachments/assets/170f5614-7698-4288-9f19-8dcdede7e1e1" />
+		</a>
+	</a>
+</div>
+
 </div>
 
 ---
