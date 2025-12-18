@@ -21,10 +21,14 @@
 <h3 align="center">🏆 Projet Phare</h3>
 
 <div align="center">
-  <a href="https://github.com/Joshua-Hermilly/MateZone">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
-  </a>
-  
+	<a href="https://github.com/Joshua-Hermilly/MateZone">
+		<img src="/logo/MateZone.png" alt="MateZone Logo" width="150" />
+	</a>
+	<br>
+	<a href="https://github.com/Joshua-Hermilly/MateZone">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
+	</a>
+</div>
 <b>MateZone</b> est une application de messagerie instantanée permettant aux utilisateurs de :<br>
 • Se connecter avec un pseudo et mot de passe<br>
 • S'inscrire pour créer un nouveau compte<br>
