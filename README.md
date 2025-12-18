@@ -3,7 +3,7 @@
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Joshua%20Hermilly&fontSize=50&animation=fadeIn&fontAlignY=40&desc=Étudiant%20en%20BUT%20Info%20👨‍💻&descAlignY=60&descAlign=50" />
 <div align="center">
 	<a href="https://git.io/typing-svg">
-		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3F51B5&center=true&vCenter=true&width=450&lines=Étudiant+en+BUT+Informatique+2ème+année+🎓;J'ai+19+ans+🎂;Développeur+Passionné+🚀;En+recherche+de+stage+ou+alternance+💼" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3F51B5&center=true&vCenter=true&width=650&lines=%C3%89tudiant+BUT+Informatique+au+Havre+%F0%9F%8E%93;D%C3%A9veloppeur+Junior+%F0%9F%92%BB;Co-cr%C3%A9ateur+de+MateZone+%F0%9F%9A%80;En+recherche+de+stage+%F0%9F%92%BC" alt="Typing SVG" />
 	</a>
 </div>
 </div>
