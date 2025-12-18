@@ -1,8 +1,6 @@
 
 <div align="center">
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Joshua%20Hermilly&fontSize=50&animation=fadeIn&fontAlignY=40&desc=Étudiant%20en%20BUT%20Info%20👨‍💻&descAlignY=60&descAlign=50" />
-	<img src="./photo-profil.jpg" alt="Photo de profil Joshua Hermilly" width="100%" height="340" style="object-fit: contain; display: block; margin: 0 auto 12px auto; max-width: 100%; background: #363636ff;" />
-
 <div align="center">
 	<a href="https://git.io/typing-svg">
 		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3F51B5&center=true&vCenter=true&width=450&lines=Étudiant+en+BUT+Informatique+2ème+année+🎓;J'ai+19+ans+🎂;Développeur+Passionné+🚀;En+recherche+de+stage+ou+alternance+💼" alt="Typing SVG" />
