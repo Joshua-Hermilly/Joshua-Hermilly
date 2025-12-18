@@ -23,52 +23,38 @@
 </div>
 </p>
 
----
+<h3 align="center">🌟 Projet Phare</h3>
 
-<h3 align="center">🏆 Projet Phare</h3>
-
-<div align="center">
-	<a href="https://github.com/Joshua-Hermilly/MateZone">
-		<img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
-	</a>
-</div>
-
-<br>
-
-<div align="center">
-
-**MateZone** est une application de messagerie instantanée complète permettant aux utilisateurs de :
-
-• Se connecter avec un pseudo et mot de passe  
-• S'inscrire pour créer un nouveau compte  
-• Échanger des messages texte et images en temps réel  
-• Créer et gérer des groupes de discussion  
-• Rejoindre différents canaux de discussion (groupes publics et conversations privées)  
-• Visualiser l'historique complet des messages  
-• Personnaliser leur profil avec une image  
-
-L'application suit une **architecture hexagonale** avec séparation claire entre client (MVC Java Swing/AWT/JavaFX) et serveur (WebSocket, MySQL, repository, services).  
-Sécurité, gestion des rôles, et support des images sont en cours d'intégrations.
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" />
-</p>
-
-<a href="https://github.com/Joshua-Hermilly/MateZone">
-	<img src="https://img.shields.io/badge/VOIR_LE_CODE-MateZone-FF4081?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://m8yuriko.fr" target="_blank">
-	<img src="https://img.shields.io/badge/Site%20web-m8yuriko.fr-3F51B5?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/Joshua-Hermilly/MateZone">
-	<img width="200" height="200" alt="MateZone" src="https://github.com/user-attachments/assets/170f5614-7698-4288-9f19-8dcdede7e1e1" />
-</a>
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img width="120" src="https://github.com/user-attachments/assets/5da0d209-698b-48a2-94f5-da5d5a838354" alt="MateZone Logo" />
+      <br>
+      <h2>MateZone</h2>
+      <p>
+        <b>Chat temps réel en Java (WebSockets)</b><br>
+        Architecture hexagonale • Persistance MySQL
+      </p>
+      <a href="https://github.com/Joshua-Hermilly/MateZone">
+        <img src="https://img.shields.io/badge/CODE-MateZone-FF4081?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <br>
+    <a href="https://www.m8yuriko.fr">
+        <img src="https://img.shields.io/badge/VISITER_LE_SITE-MATEZONE-00C853?style=for-the-badge&logo=google-chrome&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/Joshua-Hermilly/MateZone">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=false" />
+      </a>
+      <br>
+      <br>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
