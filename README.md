@@ -168,6 +168,16 @@ Sécurité, gestion des rôles, et support des images sont en cours d'intégrati
 
 ---
 
+<h3 align="center">🌐 Mon Portfolio</h3>
+
+<div align="center">
+	<a href="https://joshua-hermilly.github.io/Portofolio-jh/" target="_blank">
+		<img src="https://img.shields.io/badge/Portfolio-Joshua%20Hermilly-1976D2?style=for-the-badge&logo=google-chrome&logoColor=white" />
+	</a>
+</div>
+
+---
+
 <h3 align="center">📫 Me Contacter</h3>
 
 <p align="center">
