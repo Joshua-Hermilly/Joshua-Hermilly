@@ -158,6 +158,7 @@
 <div align="center">
   <br>
   <a href="https://github.com/Joshua-Hermilly">
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Joshua-Hermilly&theme=tokyonight" alt="profile details" />
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Joshua-Hermilly&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshua-Hermilly&layout=compact&theme=tokyonight" alt="Top Langs"/>
   </a>
