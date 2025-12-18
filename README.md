@@ -1,0 +1,167 @@
+
+<div align="center">
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Joshua%20Hermilly&fontSize=50&animation=fadeIn&fontAlignY=40&desc=Étudiant%20en%20BUT%20Info%20👨‍💻&descAlignY=60&descAlign=50" />
+	<img src="./photo-profil.jpg" alt="Photo de profil Joshua Hermilly" width="100%" height="340" style="object-fit: contain; display: block; margin: 0 auto 12px auto; max-width: 100%; background: #363636ff;" />
+
+<div align="center">
+	<a href="https://git.io/typing-svg">
+		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3F51B5&center=true&vCenter=true&width=450&lines=Étudiant+en+BUT+Informatique+2ème+année+🎓;J'ai+19+ans+🎂;Développeur+Passionné+🚀;En+recherche+de+stage+ou+alternance+💼" alt="Typing SVG" />
+	</a>
+</div>
+</div>
+
+---
+
+<h3 align="center">🌟 À propos de moi</h3>
+
+<p align="center">
+	Étudiant de 19 ans en 2<sup>ème</sup> année de <b>BUT Informatique</b>.<br>
+</p>
+
+---
+
+<h3 align="center">🏆 Projet Phare</h3>
+
+<div align="center">
+  <a href="https://github.com/Joshua-Hermilly/MateZone">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateZone&theme=tokyonight&show_owner=true" />
+  </a>
+  
+<b>MateZone</b> est une application de messagerie instantanée permettant aux utilisateurs de :<br>
+• Se connecter avec un pseudo et mot de passe<br>
+• S'inscrire pour créer un nouveau compte<br>
+• Échanger des messages texte et images en temps réel<br>
+• Créer et gérer des groupes de discussion<br>
+• Rejoindre différents canaux de discussion (groupes publics et conversations privées)<br>
+• Visualiser l'historique complet des messages<br>
+• Personnaliser leur profil avec une image<br>
+
+L'application suit une architecture hexagonale avec séparation claire entre client (MVC Java Swing/AWT/JavaFX) et serveur (WebSocket, MySQL, repository, services).<br>
+Sécurité, gestion des rôles, et support des images sont en cours d'intégrations.
+  </p>
+  <a href="https://github.com/Joshua-Hermilly/MateZone">
+    <img src="https://img.shields.io/badge/VOIR_LE_CODE-MateZone-FF4081?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+<a href="https://m8yuriko.fr" target="_blank">
+    <img src="https://img.shields.io/badge/Site%20web-m8yuriko.fr-3F51B5?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+</div>
+
+---
+
+---
+<div align="center">
+
+<h3>💻 Autres Projets Académiques</h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Projet</th>
+			<th>Description</th>
+			<th>Technologies</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>🎮 <b>Jeu de Plateforme 2D</b></td>
+			<td>Création complète d'un jeu vidéo avec gestion de la physique et des collisions.</td>
+			<td>
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+			</td>
+		</tr>
+		<tr>
+			<td>📊 <b>Gestionnaire MPM</b></td>
+			<td>Application permettant la création et la gestion de diagrammes de projet.</td>
+			<td>
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+			</td>
+		</tr>
+		<tr>
+			<td>🐳 <b>Déploiement Docker</b></td>
+			<td>Déploiement d'applications conteneurisées et virtualisation sous Linux.</td>
+			<td>
+				<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+				<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+
+---
+
+<h3 align="center">🛠️ Mes Compétences Techniques</h3>
+
+<table align="center">
+	<thead>
+		<tr>
+			<th>Catégorie</th>
+			<th>Technologies</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><b>Langages</b></td>
+			<td>
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+				<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+				<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+				<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+				<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+				<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+				<img src="https://img.shields.io/badge/JavaScript(en%20cours)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+			</td>
+		</tr>
+		<tr>
+			<td><b>Frameworks</b></td>
+			<td>
+				<img src="https://img.shields.io/badge/Symfony(en%20cours)-000000?style=for-the-badge&logo=symfony&logoColor=white" />
+				<img src="https://img.shields.io/badge/Bootstrap(en%20cours)-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+				<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+			<img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+			</td>
+		</tr>
+		<tr>
+			<td><b>Bases de données</b></td>
+			<td>
+				<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+				<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" />
+			</td>
+		</tr>
+		<tr>
+			<td><b>Outils & Environnements</b></td>
+			<td>
+				<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+				<img src="https://img.shields.io/badge/GitHub-F05032?style=for-the-badge&logo=git&logoColor=white" />
+				<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+				<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+---
+
+<h3 align="center">📈 Mes Statistiques GitHub</h3>
+
+<div align="center">
+  <br>
+  <a href="https://github.com/Joshua-Hermilly">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Joshua-Hermilly&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshua-Hermilly&layout=compact&theme=tokyonight" alt="Top Langs"/>
+  </a>
+</div>
+
+---
+
+<h3 align="center">📫 Me Contacter</h3>
+
+<p align="center">
+  <a href="mailto:joshua.hermilly14@gmail.com">
+	<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
