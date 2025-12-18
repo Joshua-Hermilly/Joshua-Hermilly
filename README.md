@@ -75,21 +75,21 @@ Sécurité, gestion des rôles, et support des images sont en cours d'intégrati
 	</thead>
 	<tbody>
 		<tr>
-			<td>🎮 <b>Jeu de Plateforme 2D</b></td>
+			<td>🎮 <b><a href="https://github.com/Joshua-Hermilly/S1.01-Platformer">Jeu de Plateforme 2D</a></b></td>
 			<td>Création complète d'un jeu vidéo avec gestion de la physique et des collisions.</td>
 			<td>
 				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 			</td>
 		</tr>
 		<tr>
-			<td>📊 <b>Gestionnaire MPM</b></td>
+			<td>📊 <b><a href="https://github.com/Joshua-Hermilly/SAE_2-01-Graphe-MPM---Java">Gestionnaire MPM</a></b></td>
 			<td>Application permettant la création et la gestion de diagrammes de projet.</td>
 			<td>
 				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 			</td>
 		</tr>
 		<tr>
-			<td>🐳 <b>Déploiement Docker</b></td>
+			<td>🐳 <b><a href="https://github.com/Joshua-Hermilly/docker-sae203">Déploiement Docker</a></b></td>
 			<td>Déploiement d'applications conteneurisées et virtualisation sous Linux.</td>
 			<td>
 				<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
