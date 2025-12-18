@@ -23,7 +23,7 @@
 <div align="center">
 	<div align="center">
 		<a href="https://github.com/Joshua-Hermilly/MateZone">
-			<img src="./logo/MateZone.png" alt="MateZone Logo" width="150" />
+			<img width="1024" height="1024" alt="MateZone" src="https://github.com/user-attachments/assets/170f5614-7698-4288-9f19-8dcdede7e1e1" />
 		</a>
 	</div>
 	<br>
