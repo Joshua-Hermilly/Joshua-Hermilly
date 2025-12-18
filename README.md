@@ -12,7 +12,7 @@
 
 <p align="center">
 	Étudiant de 19 ans en 2<sup>ème</sup> année de <b>BUT Informatique</b> au Havre.<br>
-	J'aime concevoir des architectures logicielles propres.
+	J'aime concevoir des architectures logicielles propres.<br>
 	Co-créateur du projet MateZone, je cherche aujourd'hui un stage pour mettre ma technique et mon esprit d'équipe au service de vos projets.
 	</p>
 	<br>
