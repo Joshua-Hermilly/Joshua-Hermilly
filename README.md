@@ -14,6 +14,13 @@
 	Étudiant de 19 ans en 2<sup>ème</sup> année de <b>BUT Informatique</b> au Havre.<br>
 	J'aime concevoir des architectures logicielles propres.
 	Co-créateur du projet MateZone, je cherche aujourd'hui un stage pour mettre ma technique et mon esprit d'équipe au service de vos projets.
+	</p>
+	<br>
+	<div align="center">
+	<a href="https://joshua-hermilly.github.io/Portofolio-jh/" target="_blank">
+		<img src="https://img.shields.io/badge/Portfolio-Joshua%20Hermilly-1976D2?style=for-the-badge&logo=google-chrome&logoColor=white" />
+	</a>
+</div>
 </p>
 
 ---
@@ -167,16 +174,6 @@ Sécurité, gestion des rôles, et support des images sont en cours d'intégrati
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Joshua-Hermilly&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshua-Hermilly&layout=compact&theme=tokyonight" alt="Top Langs"/>
   </a>
-</div>
-
----
-
-<h3 align="center">🌐 Mon Portfolio</h3>
-
-<div align="center">
-	<a href="https://joshua-hermilly.github.io/Portofolio-jh/" target="_blank">
-		<img src="https://img.shields.io/badge/Portfolio-Joshua%20Hermilly-1976D2?style=for-the-badge&logo=google-chrome&logoColor=white" />
-	</a>
 </div>
 
 ---
