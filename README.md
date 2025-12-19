@@ -177,5 +177,5 @@
 ---
 
 <div align="center">
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0061ff,100:60efff&height=150&section=footer&text=Merci%20de%20la%20visite%20!&fontSize=30&animation=fadeIn" />
 </div>
