@@ -23,6 +23,8 @@
 </div>
 </p>
 
+---
+
 <h3 align="center">🌟 Projet Phare</h3>
 
 <table align="center">
