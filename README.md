@@ -96,6 +96,14 @@
 				<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 			</td>
 		</tr>
+		<tr>
+			<td>🐳 <b><a href="https://github.com/Joshua-Hermilly/S3-01-Outil-retro-conception-Java-UML">Outil rétro-conception Java -> UML</a></b></td>
+			<td>Déploiement d'applications qui permet de concevoir un diagramme UML et de l'éditer, sauvegarder via un code Java.</td>
+			<td>
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+				<img src="https://img.shields.io/badge/UML-FFC0CB?style=for-the-badge&logo=UML&logoColor=white" />
+			</td>
+		</tr>
 	</tbody>
 </table>
 
