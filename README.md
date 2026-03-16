@@ -97,7 +97,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>🐳 <b><a href="https://github.com/Joshua-Hermilly/S3-01-Outil-retro-conception-Java-UML">Outil rétro-conception Java -> UML</a></b></td>
+			<td>🔄️ <b><a href="https://github.com/Joshua-Hermilly/S3-01-Outil-retro-conception-Java-UML">Outil rétro-conception Java -> UML</a></b></td>
 			<td>Déploiement d'applications qui permet de concevoir un diagramme UML et de l'éditer, sauvegarder via un code Java.</td>
 			<td>
 				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -105,10 +105,12 @@
 			</td>
 		</tr>
 		<tr>
-			<td>🐳 <b><a href="https://github.com/Joshua-Hermilly/MateGraph">MatheGraph.</a></b></td>
+			<td>Ⓜ️ <b><a href="https://github.com/Joshua-Hermilly/MateGraph">MatheGraph.</a></b></td>
 			<td>Conception de développement d'une applciation de saisie de graphe et calcul du plus court chemin.</td>
 			<td>
 				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+				<img src="https://img.shields.io/badge/Djikstra-555555?style=for-the-badge&logo=Djikstra&logoColor=white" />
+				<img src="https://img.shields.io/badge/BellmonFord-555555?style=for-the-badge&logo=BellmondFord&logoColor=white" />
 			</td>
 		</tr>
 	</tbody>
