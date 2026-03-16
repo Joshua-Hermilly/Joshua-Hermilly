@@ -104,6 +104,13 @@
 				<img src="https://img.shields.io/badge/UML-FFC0CB?style=for-the-badge&logo=UML&logoColor=white" />
 			</td>
 		</tr>
+		<tr>
+			<td>🐳 <b><a href="https://github.com/Joshua-Hermilly/MateGraph">MatheGraph.</a></b></td>
+			<td>Conception de développement d'une applciation de saisie de graphe et calcul du plus court chemin.</td>
+			<td>
+				<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+			</td>
+		</tr>
 	</tbody>
 </table>
 
