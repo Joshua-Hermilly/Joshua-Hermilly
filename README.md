@@ -56,6 +56,30 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
     </td>
   </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img width="120" src="./logo/MateSpace.png" alt="MateSpace Logo" />
+      <br>
+      <h2>MateSpace</h2>
+      <p>
+        <b>Plateforme collaborative en Java</b><br>
+        Espace de travail partagé • Architecture modulaire
+      </p>
+      <a href="https://github.com/Joshua-Hermilly/MateSpace">
+        <img src="https://img.shields.io/badge/CODE-MateSpace-FF4081?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/Joshua-Hermilly/MateSpace">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=MateSpace&theme=tokyonight&show_owner=false" />
+      </a>
+      <br>
+      <br>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    </td>
+  </tr>
 </table>
 
 ---
