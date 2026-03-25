@@ -62,8 +62,8 @@
       <br>
       <h2>MateSpace</h2>
       <p>
-        <b>Plateforme collaborative en Java</b><br>
-        Espace de travail partagé • Architecture modulaire
+        <b>Jeu de tir spacial sur Androi</b><br>
+        Architecture modulaire - Clean MVC
       </p>
       <a href="https://github.com/Joshua-Hermilly/MateSpace">
         <img src="https://img.shields.io/badge/CODE-MateSpace-FF4081?style=for-the-badge&logo=github&logoColor=white" />
