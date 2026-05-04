@@ -84,7 +84,7 @@
   </tr>
 	<tr>
     <td align="center" width="50%">
-      <img width="120" src="./logo/F1.png" alt="F1 Logo" />
+      <img width="120" src="https://github.com/girishrajani/F1-Api" alt="F1 Logo" />
       <br>
       <h2>Paddock</h2>
       <p>
