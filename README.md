@@ -84,7 +84,7 @@
   </tr>
 	<tr>
     <td align="center" width="50%">
-      <img width="120" src="https://github.com/girishrajani/F1-Api" alt="F1 Logo" />
+      <img width="120" src="https://imgs.search.brave.com/WKFwgT-uisqkyU4BPzj_4n7cg03W-ILVelgn_QgejTc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDg3NTc1/NTgucG5n" alt="F1 Logo" />
       <br>
       <h2>Paddock</h2>
       <p>
