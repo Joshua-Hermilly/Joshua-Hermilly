@@ -37,6 +37,7 @@
         <b>Chat temps réel en Java (WebSockets)</b><br>
         Architecture hexagonale • Persistance MySQL
       </p>
+      <p>Avec Realese</p>
       <a href="https://github.com/Joshua-Hermilly/MateZone">
         <img src="https://img.shields.io/badge/CODE-MateZone-FF4081?style=for-the-badge&logo=github&logoColor=white" />
       </a>
@@ -65,6 +66,7 @@
         <b>Jeu de tir spacial sur Androi</b><br>
         Architecture modulaire - Clean MVC
       </p>
+      <p>Avec Realese</p>
       <a href="https://github.com/Joshua-Hermilly/MateSpace">
         <img src="https://img.shields.io/badge/CODE-MateSpace-FF4081?style=for-the-badge&logo=github&logoColor=white" />
       </a>
@@ -79,6 +81,31 @@
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
     </td>
+  </tr>
+	<tr>
+    <td align="center" width="50%">
+      <img width="120" src="./logo/F1.png" alt="F1 Logo" />
+      <br>
+      <h2>Paddock</h2>
+      <p>
+        <b>Application de suivie de statistique sur la Formule1</b><br>
+        Architecture en multiprojets
+      </p>
+      <p>Sans Realese, stade teste de l'api</p>
+      <a href="https://github.com/Joshua-Hermilly/Paddock">
+        <img src="https://img.shields.io/badge/CODE-Paddock-FF4081?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/Joshua-Hermilly/Paddock">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Joshua-Hermilly&repo=Paddock&theme=tokyonight&show_owner=false" />
+      </a>
+      <br>
+      <br>
+    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+	<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+    <img src="https://img.shields.io/badge/DTO-0078D4?style=for-the-badge&logoColor=white" />
+	</td>
   </tr>
 </table>
 
