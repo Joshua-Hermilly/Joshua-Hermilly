@@ -82,7 +82,7 @@
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 	</td>
   </tr>
-	<tr>
+	<!-- <tr>
     <td align="center" width="50%">
       <img width="120" src="https://imgs.search.brave.com/WKFwgT-uisqkyU4BPzj_4n7cg03W-ILVelgn_QgejTc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDg3NTc1/NTgucG5n" alt="F1 Logo" />
       <br>
@@ -106,7 +106,7 @@
 	<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
     <img src="https://img.shields.io/badge/DTO-0078D4?style=for-the-badge&logoColor=white" />
 	</td>
-  </tr>
+  </tr> -->
 </table>
 
 ---
