@@ -13,7 +13,7 @@
 <p align="center">
 	Étudiant de 20 ans en 3<sup>ème</sup> année de <b>BUT Informatique</b> au Havre.<br>
 	J'aime concevoir des architectures logicielles propres.<br>
-	Co-créateur du projet MateZone, je cherche aujourd'hui un stage pour mettre ma technique et mon esprit d'équipe au service de vos projets.
+	Co-créateur du projet MateZone & alternant chez Études et Applications Infomartiques.
 	</p>
 	<br>
 	<div align="center">
@@ -25,7 +25,7 @@
 
 ---
 
-<h3 align="center">🌟 Projet Phare</h3>
+<h3 align="center">🌟 Projets Phare</h3>
 
 <table align="center">
   <tr>
