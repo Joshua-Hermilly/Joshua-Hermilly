@@ -1,0 +1,82 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='252' viewBox='0 0 1000 252' role='img' aria-label='Profilage Parcoursup &#8212; Suivi et filtrage des dossiers Parcoursup : filtres multicrit&#232;res, groupes de candidats, import et export, carte interactive des candidatures.'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+
+.saut{animation:pulser 1.2s ease-in-out infinite}
+@keyframes tour{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+.circuit{animation:tour 3.2s linear infinite}
+@keyframes flamme{from{transform:scaleY(.72)}to{transform:scaleY(1.12)}}
+.flamme{transform-box:fill-box;transform-origin:50% 0;animation:flamme .16s ease-in-out infinite alternate}
+@keyframes laser{from{stroke-dashoffset:22}to{stroke-dashoffset:-100}}
+.laser{animation:laser 1.1s linear infinite}
+@keyframes onde{from{transform:scale(1);opacity:.8}to{transform:scale(2.6);opacity:0}}
+.onde{transform-box:fill-box;transform-origin:center;animation:onde 2.4s ease-out infinite}
+@keyframes scintiller{0%,100%{opacity:.9}50%{opacity:.2}}
+.etoile{animation:scintiller 3s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id='cadre'><rect x='24' y='24' width='204' height='204' rx='14'/></clipPath></defs>
+<rect x='1' y='1' width='998' height='250' rx='16' fill='#12161D' stroke='#2A313C' stroke-width='1.5'/>
+<text class='sans' x='976' y='234' font-size='150' font-weight='800' fill='#E8ECF1' fill-opacity='.035' text-anchor='end'>04</text>
+<g clip-path='url(#cadre)'><g transform='translate(24 24)'><defs>
+<linearGradient id='psFond' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#1E3A8A'/><stop offset='1' stop-color='#2563EB'/></linearGradient>
+<linearGradient id='psCarte' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1F4D3A'/><stop offset='1' stop-color='#3F5A2E'/></linearGradient>
+</defs>
+<rect x='0' y='-60' width='204' height='324' fill='url(#psFond)'/>
+<rect x='10' y='10' width='184' height='20' rx='6' fill='#17191E'/>
+<text class='mono' x='18' y='23.5' font-size='7.5' fill='#E5E7EB'>Profilage Parcoursup</text>
+<rect x='148' y='14' width='19' height='12' rx='6' fill='#E5E7EB'/>
+<rect x='170' y='14' width='19' height='12' rx='6' fill='#2A2D35'/>
+<rect x='10' y='36' width='46' height='158' rx='6' fill='#17191E'/>
+<rect x='16' y='44' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='49' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='62' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='67' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='80' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='85' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='98' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='103' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='116' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='121' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='134' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='139' width='34' height='7' rx='2' fill='#2A2D35'/><rect x='16' y='152' width='16' height='2.5' rx='1' fill='#3B82F6'/><rect x='16' y='157' width='34' height='7' rx='2' fill='#2A2D35'/>
+<rect x='16' y='176' width='34' height='10' rx='3' fill='#2563EB'/>
+<rect x='62' y='36' width='76' height='158' rx='6' fill='#17191E'/>
+<rect x='66' y='41' width='68' height='10' rx='2' fill='#2A2D35'/>
+<g class='ap' style='animation-delay:0.4s'><rect x='66' y='56' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='60' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='60' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='60' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.48s'><rect x='66' y='71' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='75' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='75' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='75' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.56s'><rect x='66' y='86' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='90' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='90' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='90' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.64s'><rect x='66' y='101' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='105' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='105' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='105' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.72s'><rect x='66' y='116' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='120' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='120' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='120' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.8s'><rect x='66' y='131' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='135' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='135' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='135' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.88s'><rect x='66' y='146' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='150' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='150' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='150' width='16' height='3' rx='1' fill='#9CA3AF'/></g><g class='ap' style='animation-delay:0.96s'><rect x='66' y='161' width='68' height='11' rx='2' fill='#E5E7EB'/><rect x='69' y='165' width='9' height='3' rx='1' fill='#6B7280'/><rect x='83' y='165' width='24' height='3' rx='1' fill='#9CA3AF'/><rect x='112' y='165' width='16' height='3' rx='1' fill='#9CA3AF'/></g>
+<rect x='144' y='36' width='50' height='158' rx='6' fill='#17191E'/>
+<rect x='148' y='41' width='42' height='130' rx='3' fill='url(#psCarte)'/>
+<circle class='onde' cx='160' cy='70' r='5' fill='#F59E0B' style='animation-delay:0s'/><circle cx='160' cy='70' r='5' fill='#F59E0B' stroke='#17191E' stroke-width='1'/><circle class='onde' cx='177' cy='94' r='4' fill='#EAB308' style='animation-delay:0.45s'/><circle cx='177' cy='94' r='4' fill='#EAB308' stroke='#17191E' stroke-width='1'/><circle class='onde' cx='157' cy='118' r='4.5' fill='#84CC16' style='animation-delay:0.9s'/><circle cx='157' cy='118' r='4.5' fill='#84CC16' stroke='#17191E' stroke-width='1'/><circle class='onde' cx='178' cy='140' r='5.5' fill='#F97316' style='animation-delay:1.35s'/><circle cx='178' cy='140' r='5.5' fill='#F97316' stroke='#17191E' stroke-width='1'/><circle class='onde' cx='164' cy='158' r='3.5' fill='#84CC16' style='animation-delay:1.8s'/><circle cx='164' cy='158' r='3.5' fill='#84CC16' stroke='#17191E' stroke-width='1'/>
+<rect x='148' y='177' width='42' height='10' rx='3' fill='#2563EB'/></g></g>
+<rect x='24' y='24' width='204' height='204' rx='14' fill='none' stroke='#2A313C'/>
+<g class='ap' style='animation-delay:0.1s'>
+<text class='mono' x='256' y='60' font-size='12.5' font-weight='700' fill='#FF3B30' letter-spacing='1.4'>SAE 4.01 &#183; &#201;QUIPE DE 4</text>
+<rect x='826' y='38' width='150' height='28' rx='14' fill='#9BA5B3' fill-opacity='.12' stroke='#9BA5B3' stroke-opacity='.4'/>
+<circle class='pu' cx='842' cy='52' r='4' fill='#9BA5B3'/>
+<text class='mono' x='854' y='56' font-size='12' font-weight='600' fill='#9BA5B3' textLength='108' lengthAdjust='spacing'>Application web</text>
+<text class='sans' x='254' y='108' font-size='36' font-weight='700' fill='#E8ECF1'>Profilage Parcoursup</text>
+</g>
+<g class='ap' style='animation-delay:0.25s'><text class='sans' x='256' y='146' font-size='16' fill='#9BA5B3'>Suivi et filtrage des dossiers Parcoursup : filtres multicrit&#232;res, groupes de candidats, import</text><text class='sans' x='256' y='170' font-size='16' fill='#9BA5B3'>et export, carte interactive des candidatures.</text></g>
+<g class='ap' style='animation-delay:0.35s'><rect x='256' y='194' width='64.4' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='271' cy='209' r='4.5' fill='#777BB4'/>
+<text class='mono' x='283' y='213.55' font-size='13' fill='#E8ECF1' textLength='23.4' lengthAdjust='spacing'>PHP</text></g>
+<g class='ap' style='animation-delay:0.41s'><rect x='330.4' y='194' width='72.2' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='345.4' cy='209' r='4.5' fill='#BACF29'/>
+<text class='mono' x='357.4' y='213.55' font-size='13' fill='#E8ECF1' textLength='31.2' lengthAdjust='spacing'>Twig</text></g>
+<g class='ap' style='animation-delay:0.47s'><rect x='412.6' y='194' width='119' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='427.6' cy='209' r='4.5' fill='#336791'/>
+<text class='mono' x='439.6' y='213.55' font-size='13' fill='#E8ECF1' textLength='78' lengthAdjust='spacing'>PostgreSQL</text></g>
+<g class='ap' style='animation-delay:0.53s'><rect x='541.6' y='194' width='119' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='556.6' cy='209' r='4.5' fill='#F7DF1E'/>
+<text class='mono' x='568.6' y='213.55' font-size='13' fill='#E8ECF1' textLength='78' lengthAdjust='spacing'>JavaScript</text></g>
+<g class='ap' style='animation-delay:0.59s'><rect x='670.6' y='194' width='95.6' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='685.6' cy='209' r='4.5' fill='#199900'/>
+<text class='mono' x='697.6' y='213.55' font-size='13' fill='#E8ECF1' textLength='54.6' lengthAdjust='spacing'>Leaflet</text></g>
+<g class='ap' style='animation-delay:0.65s'><rect x='776.2' y='194' width='64.4' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='791.2' cy='209' r='4.5' fill='#FF3B30'/>
+<text class='mono' x='803.2' y='213.55' font-size='13' fill='#E8ECF1' textLength='23.4' lengthAdjust='spacing'>MVC</text></g>
+
+</svg>

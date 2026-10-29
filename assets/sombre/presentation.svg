@@ -1,0 +1,71 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='76' viewBox='0 0 1000 76' role='img' aria-label='Alternant d&#233;veloppeur chez &#201;tudes et Applications Informatiques &#183; &#201;tudiant en BUT Informatique, 3e ann&#233;e, au Havre &#183; C# &#183; .NET &#183; Angular &#183; Java &#183; SQL Server &#183; Co-cr&#233;ateur de MateZone, un chat temps r&#233;el en Java &#183; Fan des architectures propres et du code qui se lit seul &#183; Curieux de l&#39;IA appliqu&#233;e au dev : agents et MCP'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+@keyframes ty0{0%,0%{transform:translateX(0)}8.16%,15.65%{transform:translateX(793.8px)}17.09%,100%{transform:translateX(0)}}
+.ty0{animation:ty0 34.73s steps(63) infinite}
+.cu0{animation:ty0 34.73s steps(63) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi0{0%{opacity:0}0%{opacity:1}17.09%{opacity:0}}
+.vi0{opacity:0;animation:vi0 34.73s step-end infinite}
+@keyframes ty1{0%,18.24%{transform:translateX(0)}24.46%,31.95%{transform:translateX(604.8px)}33.39%,100%{transform:translateX(0)}}
+.ty1{animation:ty1 34.73s steps(48) infinite}
+.cu1{animation:ty1 34.73s steps(48) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi1{0%{opacity:0}18.24%{opacity:1}33.39%{opacity:0}}
+.vi1{opacity:0;animation:vi1 34.73s step-end infinite}
+@keyframes ty2{0%,34.54%{transform:translateX(0)}39.6%,47.08%{transform:translateX(491.4px)}48.52%,100%{transform:translateX(0)}}
+.ty2{animation:ty2 34.73s steps(39) infinite}
+.cu2{animation:ty2 34.73s steps(39) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi2{0%{opacity:0}34.54%{opacity:1}48.52%{opacity:0}}
+.vi2{opacity:0;animation:vi2 34.73s step-end infinite}
+@keyframes ty3{0%,49.68%{transform:translateX(0)}56.29%,63.77%{transform:translateX(642.6px)}65.21%,100%{transform:translateX(0)}}
+.ty3{animation:ty3 34.73s steps(51) infinite}
+.cu3{animation:ty3 34.73s steps(51) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi3{0%{opacity:0}49.68%{opacity:1}65.21%{opacity:0}}
+.vi3{opacity:0;animation:vi3 34.73s step-end infinite}
+@keyframes ty4{0%,66.36%{transform:translateX(0)}73.62%,81.11%{transform:translateX(705.6px)}82.55%,100%{transform:translateX(0)}}
+.ty4{animation:ty4 34.73s steps(56) infinite}
+.cu4{animation:ty4 34.73s steps(56) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi4{0%{opacity:0}66.36%{opacity:1}82.55%{opacity:0}}
+.vi4{opacity:0;animation:vi4 34.73s step-end infinite}
+@keyframes ty5{0%,83.7%{transform:translateX(0)}89.92%,97.41%{transform:translateX(604.8px)}98.85%,100%{transform:translateX(0)}}
+.ty5{animation:ty5 34.73s steps(48) infinite}
+.cu5{animation:ty5 34.73s steps(48) infinite,clignoter 1.1s step-end infinite}
+@keyframes vi5{0%{opacity:0}83.7%{opacity:1}98.85%{opacity:0}}
+.vi5{opacity:0;animation:vi5 34.73s step-end infinite}
+@media (prefers-reduced-motion:reduce){.ty0,.cu0{transform:translateX(793.8px)}.vi0{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x='1' y='1' width='998' height='74' rx='14' fill='#12161D' stroke='#2A313C' stroke-width='1.5'/>
+<text class='mono' x='32' y='46' font-size='21' font-weight='700' fill='#FF3B30'>&gt;</text>
+<clipPath id='c0'><rect class='ty0' x='-729.8' y='0' width='793.8' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='793.8' lengthAdjust='spacing' clip-path='url(#c0)'>Alternant d&#233;veloppeur chez &#201;tudes et Applications Informatiques</text>
+<g class='vi0'><rect class='cu0' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+<clipPath id='c1'><rect class='ty1' x='-540.8' y='0' width='604.8' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='604.8' lengthAdjust='spacing' clip-path='url(#c1)'>&#201;tudiant en BUT Informatique, 3e ann&#233;e, au Havre</text>
+<g class='vi1'><rect class='cu1' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+<clipPath id='c2'><rect class='ty2' x='-427.4' y='0' width='491.4' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='491.4' lengthAdjust='spacing' clip-path='url(#c2)'>C# &#183; .NET &#183; Angular &#183; Java &#183; SQL Server</text>
+<g class='vi2'><rect class='cu2' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+<clipPath id='c3'><rect class='ty3' x='-578.6' y='0' width='642.6' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='642.6' lengthAdjust='spacing' clip-path='url(#c3)'>Co-cr&#233;ateur de MateZone, un chat temps r&#233;el en Java</text>
+<g class='vi3'><rect class='cu3' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+<clipPath id='c4'><rect class='ty4' x='-641.6' y='0' width='705.6' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='705.6' lengthAdjust='spacing' clip-path='url(#c4)'>Fan des architectures propres et du code qui se lit seul</text>
+<g class='vi4'><rect class='cu4' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+<clipPath id='c5'><rect class='ty5' x='-540.8' y='0' width='604.8' height='76'/></clipPath>
+<text class='mono' x='64' y='46' font-size='21' font-weight='600' fill='#E8ECF1' textLength='604.8' lengthAdjust='spacing' clip-path='url(#c5)'>Curieux de l&#39;IA appliqu&#233;e au dev : agents et MCP</text>
+<g class='vi5'><rect class='cu5' x='66' y='24' width='11' height='28' rx='1.5' fill='#FF3B30'/></g>
+
+</svg>

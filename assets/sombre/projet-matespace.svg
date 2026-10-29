@@ -1,0 +1,77 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='252' viewBox='0 0 1000 252' role='img' aria-label='MateSpace &#8212; Jeu de tir spatial d&#39;arcade sur Android : piloter un chasseur et survivre &#224; des vagues infinies d&#39;ennemis, sur un moteur de jeu maison.'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+
+.saut{animation:pulser 1.2s ease-in-out infinite}
+@keyframes tour{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+.circuit{animation:tour 3.2s linear infinite}
+@keyframes flamme{from{transform:scaleY(.72)}to{transform:scaleY(1.12)}}
+.flamme{transform-box:fill-box;transform-origin:50% 0;animation:flamme .16s ease-in-out infinite alternate}
+@keyframes laser{from{stroke-dashoffset:22}to{stroke-dashoffset:-100}}
+.laser{animation:laser 1.1s linear infinite}
+@keyframes onde{from{transform:scale(1);opacity:.8}to{transform:scale(2.6);opacity:0}}
+.onde{transform-box:fill-box;transform-origin:center;animation:onde 2.4s ease-out infinite}
+@keyframes scintiller{0%,100%{opacity:.9}50%{opacity:.2}}
+.etoile{animation:scintiller 3s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id='cadre'><rect x='24' y='24' width='204' height='204' rx='14'/></clipPath></defs>
+<rect x='1' y='1' width='998' height='250' rx='16' fill='#12161D' stroke='#2A313C' stroke-width='1.5'/>
+<text class='sans' x='976' y='234' font-size='150' font-weight='800' fill='#E8ECF1' fill-opacity='.035' text-anchor='end'>03</text>
+<g clip-path='url(#cadre)'><g transform='translate(24 24)'><defs>
+<linearGradient id='msFond' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070A1C'/><stop offset='1' stop-color='#1A0F45'/></linearGradient>
+<radialGradient id='msNebuleuseA' cx='.82' cy='.18' r='.55'><stop offset='0' stop-color='#7C3AED' stop-opacity='.55'/><stop offset='1' stop-color='#7C3AED' stop-opacity='0'/></radialGradient>
+<radialGradient id='msNebuleuseB' cx='.12' cy='.88' r='.5'><stop offset='0' stop-color='#06B6D4' stop-opacity='.35'/><stop offset='1' stop-color='#06B6D4' stop-opacity='0'/></radialGradient>
+</defs>
+<rect x='0' y='-60' width='204' height='324' fill='url(#msFond)'/>
+<rect width='204' height='204' fill='url(#msNebuleuseA)'/>
+<rect width='204' height='204' fill='url(#msNebuleuseB)'/>
+<circle class='etoile' cx='18' cy='22' r='1.2' fill='#FFFFFF' style='animation-delay:0s'/><circle class='etoile' cx='44' cy='12' r='0.8' fill='#FFFFFF' style='animation-delay:0.37s'/><circle class='etoile' cx='70' cy='34' r='1' fill='#FFFFFF' style='animation-delay:0.74s'/><circle class='etoile' cx='120' cy='16' r='1.4' fill='#FFFFFF' style='animation-delay:1.11s'/><circle class='etoile' cx='150' cy='58' r='0.9' fill='#FFFFFF' style='animation-delay:1.48s'/><circle class='etoile' cx='188' cy='70' r='1.1' fill='#FFFFFF' style='animation-delay:1.85s'/><circle class='etoile' cx='26' cy='74' r='0.9' fill='#FFFFFF' style='animation-delay:2.22s'/><circle class='etoile' cx='12' cy='128' r='1.3' fill='#FFFFFF' style='animation-delay:2.59s'/><circle class='etoile' cx='40' cy='168' r='0.8' fill='#FFFFFF' style='animation-delay:2.96s'/><circle class='etoile' cx='76' cy='190' r='1.2' fill='#FFFFFF' style='animation-delay:0.33s'/><circle class='etoile' cx='132' cy='186' r='0.9' fill='#FFFFFF' style='animation-delay:0.7s'/><circle class='etoile' cx='178' cy='160' r='1.3' fill='#FFFFFF' style='animation-delay:1.07s'/><circle class='etoile' cx='190' cy='116' r='0.8' fill='#FFFFFF' style='animation-delay:1.44s'/><circle class='etoile' cx='160' cy='100' r='1' fill='#FFFFFF' style='animation-delay:1.81s'/><circle class='etoile' cx='58' cy='108' r='0.7' fill='#FFFFFF' style='animation-delay:2.18s'/><circle class='etoile' cx='98' cy='60' r='0.8' fill='#FFFFFF' style='animation-delay:2.55s'/>
+<path class='laser' d='M118 130 L198 16' pathLength='100' fill='none' stroke='#FB923C' stroke-width='2.5' stroke-linecap='round' stroke-dasharray='22 200'/>
+<path class='laser' d='M79 103 L159 -11' pathLength='100' fill='none' stroke='#FB923C' stroke-width='2.5' stroke-linecap='round' stroke-dasharray='22 200' style='animation-delay:0.55s'/>
+<g transform='translate(170 34)'><g class='pu'><path d='M0 -14 L4 -4 L14 -4 L6 3 L9 13 L0 7 L-9 13 L-6 3 L-14 -4 L-4 -4 Z' fill='#FDE047'/></g><path d='M0 9 L11 -7 L0 -3 L-11 -7 Z' fill='#EF4444'/></g>
+<g transform='translate(98 120) rotate(35)'>
+<path class='flamme' d='M-9 28 L0 56 L9 28 Z' fill='#60A5FA'/>
+<path class='flamme' d='M-4 28 L0 44 L4 28 Z' fill='#E0F2FE'/>
+<path d='M-12 2 L-40 30 L-38 38 L-12 24 Z' fill='#2563EB'/>
+<path d='M12 2 L40 30 L38 38 L12 24 Z' fill='#1D4ED8'/>
+<rect x='-26' y='-6' width='4' height='18' rx='2' fill='#94A3B8'/>
+<rect x='22' y='-6' width='4' height='18' rx='2' fill='#94A3B8'/>
+<path d='M0 -46 L13 -12 L13 22 L0 30 L-13 22 L-13 -12 Z' fill='#F59E0B'/>
+<path d='M0 -46 L13 -12 L13 22 L0 30 Z' fill='#D97706'/>
+<ellipse cx='0' cy='-10' rx='5' ry='10' fill='#38BDF8'/>
+</g></g></g>
+<rect x='24' y='24' width='204' height='204' rx='14' fill='none' stroke='#2A313C'/>
+<g class='ap' style='animation-delay:0.1s'>
+<text class='mono' x='256' y='60' font-size='12.5' font-weight='700' fill='#FF3B30' letter-spacing='1.4'>PROJET D&#39;&#201;QUIPE &#183; ANDROID</text>
+<rect x='854.8' y='38' width='121.2' height='28' rx='14' fill='#9BA5B3' fill-opacity='.12' stroke='#9BA5B3' stroke-opacity='.4'/>
+<circle class='pu' cx='870.8' cy='52' r='4' fill='#9BA5B3'/>
+<text class='mono' x='882.8' y='56' font-size='12' font-weight='600' fill='#9BA5B3' textLength='79.2' lengthAdjust='spacing'>&#201;quipe de 3</text>
+<text class='sans' x='254' y='108' font-size='36' font-weight='700' fill='#E8ECF1'>MateSpace</text>
+</g>
+<g class='ap' style='animation-delay:0.25s'><text class='sans' x='256' y='146' font-size='16' fill='#9BA5B3'>Jeu de tir spatial d&#39;arcade sur Android : piloter un chasseur et survivre &#224; des vagues infinies</text><text class='sans' x='256' y='170' font-size='16' fill='#9BA5B3'>d&#39;ennemis, sur un moteur de jeu maison.</text></g>
+<g class='ap' style='animation-delay:0.35s'><rect x='256' y='194' width='72.2' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='271' cy='209' r='4.5' fill='#F89820'/>
+<text class='mono' x='283' y='213.55' font-size='13' fill='#E8ECF1' textLength='31.2' lengthAdjust='spacing'>Java</text></g>
+<g class='ap' style='animation-delay:0.41s'><rect x='338.2' y='194' width='95.6' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='353.2' cy='209' r='4.5' fill='#3DDC84'/>
+<text class='mono' x='365.2' y='213.55' font-size='13' fill='#E8ECF1' textLength='54.6' lengthAdjust='spacing'>Android</text></g>
+<g class='ap' style='animation-delay:0.47s'><rect x='443.8' y='194' width='197' height='30' rx='15' fill='#1A2029' stroke='#2A313C'/>
+<circle cx='458.8' cy='209' r='4.5' fill='#FF3B30'/>
+<text class='mono' x='470.8' y='213.55' font-size='13' fill='#E8ECF1' textLength='156' lengthAdjust='spacing'>Moteur de jeu maison</text></g>
+
+</svg>

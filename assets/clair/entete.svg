@@ -1,0 +1,53 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='340' viewBox='0 0 1000 340' role='img' aria-label='Joshua Hermilly &#8212; &#201;tudiant en BUT Informatique, alternant d&#233;veloppeur .NET, Le Havre'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+
+.rl{animation:tourner 90s linear infinite}
+.rr{animation:tourner 10s linear infinite}
+.rm{animation:tourner 24s linear infinite reverse}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id='forme'><rect x='1' y='1' width='998' height='338' rx='16'/></clipPath>
+<pattern id='points' width='22' height='22' patternUnits='userSpaceOnUse'><circle cx='2' cy='2' r='1.1' fill='#16191D' fill-opacity='.09'/></pattern>
+<radialGradient id='halo' cx='830' cy='192' r='330' gradientUnits='userSpaceOnUse'><stop offset='0' stop-color='#D7261C' stop-opacity='.22'/><stop offset='1' stop-color='#D7261C' stop-opacity='0'/></radialGradient>
+</defs>
+<rect x='1' y='1' width='998' height='338' rx='16' fill='#FFFFFF' stroke='#D9DEE4' stroke-width='1.5'/>
+<g clip-path='url(#forme)'>
+<rect width='1000' height='340' fill='url(#points)'/>
+<rect width='1000' height='340' fill='url(#halo)'/>
+<rect width='1000' height='44' fill='#F4F6F8'/>
+<path d='M0 44 H1000' stroke='#D9DEE4' stroke-width='1.5'/>
+</g>
+<circle cx='28' cy='22' r='6' fill='#FF5F57'/><circle cx='48' cy='22' r='6' fill='#FEBC2E'/><circle cx='68' cy='22' r='6' fill='#28C840'/>
+<text class='mono' x='500' y='27' font-size='13' fill='#57606A' text-anchor='middle'>joshua-hermilly &#8212; README.md</text>
+<text class='mono' x='972' y='27' font-size='12' fill='#8C959F' text-anchor='end'>Le Havre, FR</text>
+<g class='gl' style='animation-delay:0.1s'><text class='mono' x='58' y='106' font-size='17' font-weight='700'><tspan fill='#D7261C'>&gt;</tspan><tspan fill='#57606A'> whoami</tspan></text></g>
+<g class='gl' style='animation-delay:0.25s'><text class='sans' x='54' y='188' font-size='78' font-weight='800' fill='#16191D' textLength='275.57' lengthAdjust='spacingAndGlyphs'>Joshua</text></g>
+<g class='gl' style='animation-delay:0.4s'><text class='sans' x='54' y='268' font-size='78' font-weight='800' fill='#16191D' textLength='318.15' lengthAdjust='spacingAndGlyphs'>Hermilly</text></g>
+<rect class='cl' x='384.15' y='212' width='16' height='60' fill='#D7261C'/>
+<g class='ap' style='animation-delay:0.7s'><text class='sans' x='56' y='312' font-size='19' fill='#57606A'>&#201;tudiant en BUT Informatique <tspan fill='#D7261C'>&#183;</tspan> Alternant d&#233;veloppeur .NET</text></g>
+<g class='ap' style='animation-delay:0.5s'>
+<circle cx='830' cy='192' r='80' fill='#D7261C' fill-opacity='.07'/>
+<circle class='pivot rl' cx='830' cy='192' r='114' fill='none' stroke='#8C959F' stroke-opacity='.6' stroke-width='2.2' stroke-dasharray='0.1 10' stroke-linecap='round'/>
+<circle cx='830' cy='192' r='96' fill='none' stroke='#D9DEE4' stroke-width='1.5'/>
+<circle class='pivot rr' cx='830' cy='192' r='96' fill='none' stroke='#D7261C' stroke-width='3' stroke-linecap='round' pathLength='100' stroke-dasharray='16 84'/>
+<g class='pivot rm'><circle cx='830' cy='192' r='114' fill='none'/><circle cx='830' cy='78' r='5' fill='#D7261C'/></g>
+<rect x='764' y='126' width='132' height='132' rx='32' fill='#FFFFFF' stroke='#D9DEE4' stroke-width='1.5'/>
+<text class='mono' x='830' y='207' font-size='42' font-weight='700' text-anchor='middle' textLength='101' lengthAdjust='spacing'><tspan fill='#D7261C'>{</tspan><tspan fill='#16191D'>JH</tspan><tspan fill='#D7261C'>}</tspan></text>
+</g>
+</svg>

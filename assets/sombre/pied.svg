@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='150' viewBox='0 0 1000 150' role='img' aria-label='Merci de votre visite &#8212; Joshua Hermilly, Le Havre'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<path class='tr' pathLength='1' d='M484 34 H140' fill='none' stroke='#2A313C' stroke-width='1.5'/>
+<path class='tr' pathLength='1' d='M516 34 H860' fill='none' stroke='#2A313C' stroke-width='1.5'/>
+<g class='ap'><rect x='494' y='28' width='12' height='12' rx='2' fill='#FF3B30' transform='rotate(45 500 34)'/></g>
+<g class='ap' style='animation-delay:0.3s'><text class='sans' x='500' y='90' font-size='28' font-weight='700' fill='#E8ECF1' text-anchor='middle'>Merci de votre visite</text></g>
+<g class='ap' style='animation-delay:0.5s'><text class='mono' x='500' y='122' font-size='13' fill='#9BA5B3' text-anchor='middle'>Joshua Hermilly <tspan fill='#FF3B30'>&#183;</tspan> Le Havre <tspan fill='#FF3B30'>&#183;</tspan> &#192; bient&#244;t</text></g>
+</svg>

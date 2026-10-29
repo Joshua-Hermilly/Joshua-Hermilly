@@ -1,0 +1,106 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='354' viewBox='0 0 1000 354' role='img' aria-label='BACK-END : C#, .NET, ASP.NET, WPF, Java, PHP, Symfony. FRONT-END : Angular, TypeScript, JavaScript, HTML5, CSS3, Bootstrap. DONN&#201;ES : SQL Server, PostgreSQL, MySQL. MOBILE &amp; SYST&#200;ME : Android, C, C++. OUTILS : Git, Docker, Linux, Visual Studio, IntelliJ IDEA, VS Code'>
+<style>
+.sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes apparaitre{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ap{animation:apparaitre .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes glisser{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.gl{animation:glisser .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes clignoter{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cl{animation:clignoter 1.1s step-end infinite}
+@keyframes tracer{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.tr{stroke-dasharray:1;animation:tracer 1.4s cubic-bezier(.6,0,.2,1) both}
+@keyframes pulser{0%,100%{opacity:1}50%{opacity:.3}}
+.pu{animation:pulser 2.4s ease-in-out infinite}
+@keyframes tourner{to{transform:rotate(360deg)}}
+.pivot{transform-box:fill-box;transform-origin:center}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x='1' y='1' width='998' height='352' rx='16' fill='#FFFFFF' stroke='#D9DEE4' stroke-width='1.5'/>
+<text class='mono' x='32' y='57.5' font-size='12' font-weight='700' fill='#8C959F' letter-spacing='1.2'>BACK-END</text>
+<g class='ap' style='animation-delay:0.1s'><rect x='220' y='36' width='61.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='237' cy='53' r='5.1' fill='#9B4F96'/>
+<text class='mono' x='250.6' y='57.9' font-size='14' fill='#16191D' textLength='16.8' lengthAdjust='spacing'>C#</text></g>
+<g class='ap' style='animation-delay:0.14s'><rect x='291.4' y='36' width='78.2' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='308.4' cy='53' r='5.1' fill='#512BD4'/>
+<text class='mono' x='322' y='57.9' font-size='14' fill='#16191D' textLength='33.6' lengthAdjust='spacing'>.NET</text></g>
+<g class='ap' style='animation-delay:0.18s'><rect x='379.6' y='36' width='103.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='396.6' cy='53' r='5.1' fill='#7C5CFA'/>
+<text class='mono' x='410.2' y='57.9' font-size='14' fill='#16191D' textLength='58.8' lengthAdjust='spacing'>ASP.NET</text></g>
+<g class='ap' style='animation-delay:0.22s'><rect x='493' y='36' width='69.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='510' cy='53' r='5.1' fill='#2F7DE1'/>
+<text class='mono' x='523.6' y='57.9' font-size='14' fill='#16191D' textLength='25.2' lengthAdjust='spacing'>WPF</text></g>
+<g class='ap' style='animation-delay:0.26s'><rect x='572.8' y='36' width='78.2' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='589.8' cy='53' r='5.1' fill='#F89820'/>
+<text class='mono' x='603.4' y='57.9' font-size='14' fill='#16191D' textLength='33.6' lengthAdjust='spacing'>Java</text></g>
+<g class='ap' style='animation-delay:0.3s'><rect x='661' y='36' width='69.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='678' cy='53' r='5.1' fill='#777BB4'/>
+<text class='mono' x='691.6' y='57.9' font-size='14' fill='#16191D' textLength='25.2' lengthAdjust='spacing'>PHP</text></g>
+<g class='ap' style='animation-delay:0.34s'><rect x='740.8' y='36' width='103.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='757.8' cy='53' r='5.1' fill='#16191D'/>
+<text class='mono' x='771.4' y='57.9' font-size='14' fill='#16191D' textLength='58.8' lengthAdjust='spacing'>Symfony</text></g>
+<path d='M32 84 H968' stroke='#D9DEE4' stroke-opacity='.7'/>
+<text class='mono' x='32' y='119.5' font-size='12' font-weight='700' fill='#8C959F' letter-spacing='1.2'>FRONT-END</text>
+<g class='ap' style='animation-delay:0.22s'><rect x='220' y='98' width='103.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='237' cy='115' r='5.1' fill='#DD0031'/>
+<text class='mono' x='250.6' y='119.9' font-size='14' fill='#16191D' textLength='58.8' lengthAdjust='spacing'>Angular</text></g>
+<g class='ap' style='animation-delay:0.26s'><rect x='333.4' y='98' width='128.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='350.4' cy='115' r='5.1' fill='#3178C6'/>
+<text class='mono' x='364' y='119.9' font-size='14' fill='#16191D' textLength='84' lengthAdjust='spacing'>TypeScript</text></g>
+<g class='ap' style='animation-delay:0.3s'><rect x='472' y='98' width='128.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='489' cy='115' r='5.1' fill='#F7DF1E'/>
+<text class='mono' x='502.6' y='119.9' font-size='14' fill='#16191D' textLength='84' lengthAdjust='spacing'>JavaScript</text></g>
+<g class='ap' style='animation-delay:0.34s'><rect x='610.6' y='98' width='86.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='627.6' cy='115' r='5.1' fill='#E34F26'/>
+<text class='mono' x='641.2' y='119.9' font-size='14' fill='#16191D' textLength='42' lengthAdjust='spacing'>HTML5</text></g>
+<g class='ap' style='animation-delay:0.38s'><rect x='707.2' y='98' width='78.2' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='724.2' cy='115' r='5.1' fill='#1572B6'/>
+<text class='mono' x='737.8' y='119.9' font-size='14' fill='#16191D' textLength='33.6' lengthAdjust='spacing'>CSS3</text></g>
+<g class='ap' style='animation-delay:0.42s'><rect x='795.4' y='98' width='120.2' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='812.4' cy='115' r='5.1' fill='#7952B3'/>
+<text class='mono' x='826' y='119.9' font-size='14' fill='#16191D' textLength='75.6' lengthAdjust='spacing'>Bootstrap</text></g>
+<path d='M32 146 H968' stroke='#D9DEE4' stroke-opacity='.7'/>
+<text class='mono' x='32' y='181.5' font-size='12' font-weight='700' fill='#8C959F' letter-spacing='1.2'>DONN&#201;ES</text>
+<g class='ap' style='animation-delay:0.34s'><rect x='220' y='160' width='128.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='237' cy='177' r='5.1' fill='#CC2927'/>
+<text class='mono' x='250.6' y='181.9' font-size='14' fill='#16191D' textLength='84' lengthAdjust='spacing'>SQL Server</text></g>
+<g class='ap' style='animation-delay:0.38s'><rect x='358.6' y='160' width='128.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='375.6' cy='177' r='5.1' fill='#336791'/>
+<text class='mono' x='389.2' y='181.9' font-size='14' fill='#16191D' textLength='84' lengthAdjust='spacing'>PostgreSQL</text></g>
+<g class='ap' style='animation-delay:0.42s'><rect x='497.2' y='160' width='86.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='514.2' cy='177' r='5.1' fill='#4479A1'/>
+<text class='mono' x='527.8' y='181.9' font-size='14' fill='#16191D' textLength='42' lengthAdjust='spacing'>MySQL</text></g>
+<path d='M32 208 H968' stroke='#D9DEE4' stroke-opacity='.7'/>
+<text class='mono' x='32' y='243.5' font-size='12' font-weight='700' fill='#8C959F' letter-spacing='1.2'>MOBILE &amp; SYST&#200;ME</text>
+<g class='ap' style='animation-delay:0.46s'><rect x='220' y='222' width='103.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='237' cy='239' r='5.1' fill='#3DDC84'/>
+<text class='mono' x='250.6' y='243.9' font-size='14' fill='#16191D' textLength='58.8' lengthAdjust='spacing'>Android</text></g>
+<g class='ap' style='animation-delay:0.5s'><rect x='333.4' y='222' width='53' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='350.4' cy='239' r='5.1' fill='#A8B9CC'/>
+<text class='mono' x='364' y='243.9' font-size='14' fill='#16191D' textLength='8.4' lengthAdjust='spacing'>C</text></g>
+<g class='ap' style='animation-delay:0.54s'><rect x='396.4' y='222' width='69.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='413.4' cy='239' r='5.1' fill='#00599C'/>
+<text class='mono' x='427' y='243.9' font-size='14' fill='#16191D' textLength='25.2' lengthAdjust='spacing'>C++</text></g>
+<path d='M32 270 H968' stroke='#D9DEE4' stroke-opacity='.7'/>
+<text class='mono' x='32' y='305.5' font-size='12' font-weight='700' fill='#8C959F' letter-spacing='1.2'>OUTILS</text>
+<g class='ap' style='animation-delay:0.58s'><rect x='220' y='284' width='69.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='237' cy='301' r='5.1' fill='#F05032'/>
+<text class='mono' x='250.6' y='305.9' font-size='14' fill='#16191D' textLength='25.2' lengthAdjust='spacing'>Git</text></g>
+<g class='ap' style='animation-delay:0.62s'><rect x='299.8' y='284' width='95' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='316.8' cy='301' r='5.1' fill='#2496ED'/>
+<text class='mono' x='330.4' y='305.9' font-size='14' fill='#16191D' textLength='50.4' lengthAdjust='spacing'>Docker</text></g>
+<g class='ap' style='animation-delay:0.66s'><rect x='404.8' y='284' width='86.6' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='421.8' cy='301' r='5.1' fill='#FCC624'/>
+<text class='mono' x='435.4' y='305.9' font-size='14' fill='#16191D' textLength='42' lengthAdjust='spacing'>Linux</text></g>
+<g class='ap' style='animation-delay:0.7s'><rect x='501.4' y='284' width='153.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='518.4' cy='301' r='5.1' fill='#5C2D91'/>
+<text class='mono' x='532' y='305.9' font-size='14' fill='#16191D' textLength='109.2' lengthAdjust='spacing'>Visual Studio</text></g>
+<g class='ap' style='animation-delay:0.74s'><rect x='665.2' y='284' width='153.8' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='682.2' cy='301' r='5.1' fill='#FE315D'/>
+<text class='mono' x='695.8' y='305.9' font-size='14' fill='#16191D' textLength='109.2' lengthAdjust='spacing'>IntelliJ IDEA</text></g>
+<g class='ap' style='animation-delay:0.78s'><rect x='829' y='284' width='103.4' height='34' rx='17' fill='#F4F6F8' stroke='#D9DEE4'/>
+<circle cx='846' cy='301' r='5.1' fill='#007ACC'/>
+<text class='mono' x='859.6' y='305.9' font-size='14' fill='#16191D' textLength='58.8' lengthAdjust='spacing'>VS Code</text></g>
+
+</svg>
