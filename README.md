@@ -111,9 +111,9 @@
 </picture>
 
 <p align="center">
-	<a href="mailto:joshua.hermilly14@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-email.svg"><img src="./assets/clair/bouton-email.svg" height="44" alt="M'écrire"></picture></a>
+	<a href="mailto:joshua@hermilly.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-email.svg"><img src="./assets/clair/bouton-email.svg" height="44" alt="M'écrire"></picture></a>
 	&nbsp;
-	<a href="https://joshua-hermilly.github.io/Portofolio-jh/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-portfolio.svg"><img src="./assets/clair/bouton-portfolio.svg" height="44" alt="Portfolio"></picture></a>
+	<!-- <a href="https://joshua.hermilly.fr/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-portfolio.svg"><img src="./assets/clair/bouton-portfolio.svg" height="44" alt="Portfolio"></picture></a> -->
 </p>
 
 <br>
