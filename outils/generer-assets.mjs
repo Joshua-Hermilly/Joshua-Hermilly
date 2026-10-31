@@ -3,12 +3,12 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const DossierAssets = join( dirname( fileURLToPath( import.meta.url ) ), '..', 'assets' );
-const Largeur = 1000;
+export const Largeur = 1000;
 const RatioMono = 0.6;
 const PoliceSans = "'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif";
 const PoliceMono = "'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace";
 
-const Themes =
+export const Themes =
 {
 	sombre:
 	{
@@ -76,7 +76,8 @@ const Titres =
 	{ Numero: '03', Texte: 'Projets phares' },
 	{ Numero: '04', Texte: 'Autres projets' },
 	{ Numero: '05', Texte: 'Stack technique' },
-	{ Numero: '06', Texte: 'Contact' }
+	{ Numero: '06', Texte: 'Statistiques' },
+	{ Numero: '07', Texte: 'Contact' }
 ];
 
 const RouteParcours =
@@ -279,7 +280,7 @@ function TableauCode( elements )
 	return jetons;
 }
 
-function Echapper( texte )
+export function Echapper( texte )
 {
 	return String( texte )
 		.replace( /&/g, '&amp;' )
@@ -290,12 +291,12 @@ function Echapper( texte )
 		.replace( /[^\x00-\x7F]/gu, ( caractere ) => `&#${ caractere.codePointAt( 0 ) };` );
 }
 
-function Arrondir( nombre )
+export function Arrondir( nombre )
 {
 	return Math.round( nombre * 100 ) / 100;
 }
 
-function Delai( secondes )
+export function Delai( secondes )
 {
 	return ` style='animation-delay:${ Arrondir( secondes ) }s'`;
 }
@@ -315,7 +316,7 @@ function LargeurCaractere( caractere )
 	return /\p{Lu}/u.test( caractere ) ? 0.68 : 0.55;
 }
 
-function LargeurTexte( texte, taille, gras = false )
+export function LargeurTexte( texte, taille, gras = false )
 {
 	let total = 0;
 	for ( const caractere of texte )
@@ -325,7 +326,7 @@ function LargeurTexte( texte, taille, gras = false )
 	return total * taille * ( gras ? 1.03 : 1 );
 }
 
-function LargeurMono( texte, taille )
+export function LargeurMono( texte, taille )
 {
 	return [ ...texte ].length * taille * RatioMono;
 }
@@ -354,7 +355,7 @@ function DecouperLignes( texte, taille, largeurMax )
 	return lignes;
 }
 
-function Svg( hauteur, titre, styles, contenu, largeur = Largeur )
+export function Svg( hauteur, titre, styles, contenu, largeur = Largeur )
 {
 	return `<svg xmlns='http://www.w3.org/2000/svg' width='${ largeur }' height='${ hauteur }' viewBox='0 0 ${ largeur } ${ hauteur }' role='img' aria-label='${ Echapper( titre ) }'>
 <style>${ StylesCommuns }${ styles }
@@ -365,17 +366,17 @@ ${ contenu }
 `;
 }
 
-function Carte( theme, hauteur, rayon = 16 )
+export function Carte( theme, hauteur, rayon = 16 )
 {
 	return `<rect x='1' y='1' width='${ Largeur - 2 }' height='${ hauteur - 2 }' rx='${ rayon }' fill='${ theme.Surface }' stroke='${ theme.Bordure }' stroke-width='1.5'/>`;
 }
 
-function FormeCarte( id, hauteur, rayon = 16 )
+export function FormeCarte( id, hauteur, rayon = 16 )
 {
 	return `<clipPath id='${ id }'><rect x='1' y='1' width='${ Largeur - 2 }' height='${ hauteur - 2 }' rx='${ rayon }'/></clipPath>`;
 }
 
-function Feux( x, y )
+export function Feux( x, y )
 {
 	return [ '#FF5F57', '#FEBC2E', '#28C840' ]
 		.map( ( couleur, index ) => `<circle cx='${ x + index * 20 }' cy='${ y }' r='6' fill='${ couleur }'/>` )
@@ -804,7 +805,7 @@ function GenererStack( theme )
 	return Svg( hauteur, resume, '', `${ Carte( theme, hauteur ) }\n${ rendu }` );
 }
 
-function Arrondir4( nombre )
+export function Arrondir4( nombre )
 {
 	return Math.round( nombre * 10000 ) / 10000;
 }
@@ -1046,7 +1047,7 @@ function GenererPied( theme )
 	return Svg( hauteur, 'Merci de votre visite — Joshua Hermilly, Le Havre', '', contenu );
 }
 
-function Ecrire( nomTheme, nom, contenu )
+export function Ecrire( nomTheme, nom, contenu )
 {
 	const dossier = join( DossierAssets, nomTheme );
 	mkdirSync( dossier, { recursive: true } );
@@ -1054,28 +1055,33 @@ function Ecrire( nomTheme, nom, contenu )
 }
 
 const HauteurProjets = Math.max( ...Projets.map( HauteurProjet ) );
-let nombreFichiers = 0;
+const EstPrincipal = process.argv[ 1 ] === fileURLToPath( import.meta.url );
 
-for ( const [ nomTheme, theme ] of Object.entries( Themes ) )
+if ( EstPrincipal )
 {
-	const fichiers =
-	[
-		[ 'entete', GenererEntete( theme ) ],
-		[ 'presentation', GenererPresentation( theme ) ],
-		[ 'fiche', GenererFiche( theme ) ],
-		[ 'parcours', GenererParcours( theme ) ],
-		[ 'stack', GenererStack( theme ) ],
-		[ 'defilement', GenererDefilement( theme ) ],
-		[ 'pied', GenererPied( theme ) ],
-		...Titres.map( ( titre ) => [ `titre-${ titre.Numero }`, GenererTitre( theme, titre.Numero, titre.Texte ) ] ),
-		...Projets.map( ( projet, index ) => [ projet.Fichier, GenererProjet( theme, projet, index, HauteurProjets ) ] ),
-		...Boutons.map( ( bouton ) => [ bouton.Fichier, GenererBouton( theme, bouton ) ] )
-	];
-	for ( const [ nom, contenu ] of fichiers )
-	{
-		Ecrire( nomTheme, nom, contenu );
-		nombreFichiers++;
-	}
-}
+	let nombreFichiers = 0;
 
-console.log( `${ nombreFichiers } SVG générés dans ${ DossierAssets }` );
+	for ( const [ nomTheme, theme ] of Object.entries( Themes ) )
+	{
+		const fichiers =
+		[
+			[ 'entete', GenererEntete( theme ) ],
+			[ 'presentation', GenererPresentation( theme ) ],
+			[ 'fiche', GenererFiche( theme ) ],
+			[ 'parcours', GenererParcours( theme ) ],
+			[ 'stack', GenererStack( theme ) ],
+			[ 'defilement', GenererDefilement( theme ) ],
+			[ 'pied', GenererPied( theme ) ],
+			...Titres.map( ( titre ) => [ `titre-${ titre.Numero }`, GenererTitre( theme, titre.Numero, titre.Texte ) ] ),
+			...Projets.map( ( projet, index ) => [ projet.Fichier, GenererProjet( theme, projet, index, HauteurProjets ) ] ),
+			...Boutons.map( ( bouton ) => [ bouton.Fichier, GenererBouton( theme, bouton ) ] )
+		];
+		for ( const [ nom, contenu ] of fichiers )
+		{
+			Ecrire( nomTheme, nom, contenu );
+			nombreFichiers++;
+		}
+	}
+
+	console.log( `${ nombreFichiers } SVG générés dans ${ DossierAssets }` );
+}

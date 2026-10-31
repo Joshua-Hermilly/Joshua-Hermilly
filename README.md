@@ -119,7 +119,19 @@
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-06.svg">
-	<img src="./assets/clair/titre-06.svg" width="100%" alt="06 — Contact">
+	<img src="./assets/clair/titre-06.svg" width="100%" alt="06 — Statistiques">
+</picture>
+
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/statistiques.svg">
+	<img src="./assets/clair/statistiques.svg" width="100%" alt="Statistiques GitHub sur 12 mois : contributions, jours actifs, pull requests, série actuelle, dépôts publics, étoiles, activité par semaine et répartition des langages.">
+</picture>
+
+<br>
+
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-07.svg">
+	<img src="./assets/clair/titre-07.svg" width="100%" alt="07 — Contact">
 </picture>
 
 <p align="center">

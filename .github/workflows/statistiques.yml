@@ -1,0 +1,28 @@
+name: Statistiques
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  statistiques:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Générer les statistiques
+        run: node outils/generer-statistiques.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publier si modifié
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/clair/statistiques.svg assets/sombre/statistiques.svg
+          git diff --cached --quiet || (git commit -m "Mise à jour des statistiques" && git push)
