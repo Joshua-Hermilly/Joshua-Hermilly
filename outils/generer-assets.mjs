@@ -72,11 +72,42 @@ const LignesPresentation =
 const Titres =
 [
 	{ Numero: '01', Texte: 'À propos' },
-	{ Numero: '02', Texte: 'Projets phares' },
-	{ Numero: '03', Texte: 'Autres projets' },
-	{ Numero: '04', Texte: 'Stack technique' },
-	{ Numero: '05', Texte: 'Contact' }
+	{ Numero: '02', Texte: 'Parcours' },
+	{ Numero: '03', Texte: 'Projets phares' },
+	{ Numero: '04', Texte: 'Autres projets' },
+	{ Numero: '05', Texte: 'Stack technique' },
+	{ Numero: '06', Texte: 'Contact' }
 ];
+
+const RouteParcours =
+[
+	[ 40, 250, 67, 250, 93, 250, 120, 250 ],
+	[ 120, 250, 210, 250, 215, 170, 305, 170 ],
+	[ 305, 170, 400, 170, 405, 270, 500, 270 ],
+	[ 500, 270, 595, 270, 600, 170, 695, 170 ],
+	[ 695, 170, 785, 170, 790, 250, 880, 250 ],
+	[ 880, 250, 907, 250, 933, 250, 960, 250 ]
+];
+
+const EtapesParcours =
+[
+	{ Etiquette: 'BUT 1', Titre: 'Les fondations', Description: 'Java, algo, SQL et Docker' },
+	{ Etiquette: 'PREMIÈRE APP', Titre: 'MateZone', Description: 'Chat temps réel en Java' },
+	{ Etiquette: 'BUT 2', Titre: 'Stage .NET', Description: 'Architecture MVC, UML, puis premier stage en .NET' },
+	{ Etiquette: 'CDD', Titre: 'Analyste développeur', Description: 'Du stage au contrat' },
+	{ Etiquette: 'BUT 3', Titre: 'Alternance', Description: 'Développeur full stack .NET' }
+];
+
+const SoleilsParcours =
+[
+	{ Segment: 1, Position: 0.5 },
+	{ Segment: 2, Position: 0.5 }
+];
+
+const VitesseParcours = 120;
+const PausesParcours = [ 1.2, 1.2, 1.2, 1.2, 2.6 ];
+const AttenteDepartParcours = 0.6;
+const AttenteFinParcours = 0.8;
 
 const IndentationCode = '    ';
 
@@ -773,6 +804,179 @@ function GenererStack( theme )
 	return Svg( hauteur, resume, '', `${ Carte( theme, hauteur ) }\n${ rendu }` );
 }
 
+function Arrondir4( nombre )
+{
+	return Math.round( nombre * 10000 ) / 10000;
+}
+
+function PointBezier( segment, position )
+{
+	const [ x0, y0, x1, y1, x2, y2, x3, y3 ] = segment;
+	const reste = 1 - position;
+	const poids = [ reste ** 3, 3 * reste ** 2 * position, 3 * reste * position ** 2, position ** 3 ];
+	return [
+		poids[ 0 ] * x0 + poids[ 1 ] * x1 + poids[ 2 ] * x2 + poids[ 3 ] * x3,
+		poids[ 0 ] * y0 + poids[ 1 ] * y1 + poids[ 2 ] * y2 + poids[ 3 ] * y3
+	];
+}
+
+function LongueurSegment( segment )
+{
+	const nombrePas = 120;
+	let longueur = 0;
+	let precedent = PointBezier( segment, 0 );
+	for ( let pas = 1; pas <= nombrePas; pas++ )
+	{
+		const courant = PointBezier( segment, pas / nombrePas );
+		longueur += Math.hypot( courant[ 0 ] - precedent[ 0 ], courant[ 1 ] - precedent[ 1 ] );
+		precedent = courant;
+	}
+	return longueur;
+}
+
+function CheminRoute()
+{
+	const [ xDepart, yDepart ] = RouteParcours[ 0 ];
+	const courbes = RouteParcours.map( ( segment ) => `C${ segment.slice( 2 ).join( ' ' ) }` );
+	return `M${ xDepart } ${ yDepart } ${ courbes.join( ' ' ) }`;
+}
+
+function CalculerChronologie()
+{
+	const longueurs = RouteParcours.map( LongueurSegment );
+	const total = longueurs.reduce( ( somme, longueur ) => somme + longueur, 0 );
+	let temps = AttenteDepartParcours;
+	let distance = 0;
+	let tempsDepartFin = 0;
+	const points = [ { Fraction: 0, Temps: 0 }, { Fraction: 0, Temps: temps } ];
+	const arrivees = [];
+	RouteParcours.forEach( ( segment, index ) =>
+	{
+		distance += longueurs[ index ];
+		temps += longueurs[ index ] / VitesseParcours;
+		points.push( { Fraction: distance / total, Temps: temps } );
+		if ( index < EtapesParcours.length )
+		{
+			arrivees.push( temps );
+			temps += PausesParcours[ index ];
+			points.push( { Fraction: distance / total, Temps: temps } );
+			tempsDepartFin = temps;
+		}
+	} );
+	temps += AttenteFinParcours;
+	points.push( { Fraction: 1, Temps: temps } );
+	return { Points: points, Arrivees: arrivees, Duree: temps, TempsDepartFin: tempsDepartFin };
+}
+
+function AnimerBascule( attribut, avant, apres, arrivee, duree )
+{
+	return `<animate attributeName='${ attribut }' values='${ avant };${ apres }' keyTimes='0;${ Arrondir4( arrivee / duree ) }' calcMode='discrete' dur='${ Arrondir( duree ) }s' repeatCount='indefinite'/>`;
+}
+
+function DessinerVoiture( theme )
+{
+	const metal = '#0C0F13';
+	return `<g transform='scale(1.15)'>
+<rect x='-21' y='-8.5' width='4.5' height='17' rx='1' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<rect x='15' y='-8' width='4' height='16' rx='1' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<rect x='-14' y='-11.5' width='10' height='5.5' rx='1.6' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<rect x='-14' y='6' width='10' height='5.5' rx='1.6' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<rect x='6' y='-10.5' width='7.5' height='4.5' rx='1.4' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<rect x='6' y='6' width='7.5' height='4.5' rx='1.4' fill='${ metal }' stroke='${ theme.TexteFaible }' stroke-width='.6'/>
+<path d='M-18 -4.5 L-3 -5.5 L7 -2.4 L19 -1.2 L19 1.2 L7 2.4 L-3 5.5 L-18 4.5 Z' fill='${ theme.Accent }'/>
+<path d='M-18 -.9 H19 V.9 H-18 Z' fill='#FFFFFF' fill-opacity='.85'/>
+<ellipse cx='1' cy='0' rx='4.2' ry='2.6' fill='${ metal }'/>
+<circle cx='1.6' cy='0' r='1.7' fill='#FFD23F'/>
+</g>`;
+}
+
+function DessinerSoleil( theme, x, y, rang )
+{
+	const texte = "JOB D'ÉTÉ";
+	const largeurTexte = Arrondir( LargeurMono( texte, 11 ) );
+	const largeurPastille = Arrondir( 38 + largeurTexte );
+	const gauche = Arrondir( x - largeurPastille / 2 );
+	let rayons = '';
+	for ( let rayon = 0; rayon < 8; rayon++ )
+	{
+		const angle = rayon * Math.PI / 4;
+		rayons += `<line x1='${ Arrondir( Math.cos( angle ) * 7.5 ) }' y1='${ Arrondir( Math.sin( angle ) * 7.5 ) }' x2='${ Arrondir( Math.cos( angle ) * 10 ) }' y2='${ Arrondir( Math.sin( angle ) * 10 ) }'/>`;
+	}
+	return `<g class='ap'${ Delai( 0.6 + rang * 0.2 ) }>
+<rect x='${ gauche }' y='${ Arrondir( y - 15 ) }' width='${ largeurPastille }' height='30' rx='15' fill='${ theme.Surface }' stroke='${ theme.Attention }' stroke-opacity='.6' stroke-width='1.5'/>
+<g transform='translate(${ Arrondir( gauche + 19 ) } ${ y })'><circle r='4.6' fill='#F5A623'/><g stroke='#F5A623' stroke-width='1.6' stroke-linecap='round'>${ rayons }</g></g>
+<text class='mono' x='${ Arrondir( gauche + 34 ) }' y='${ Arrondir( y + 4 ) }' font-size='11' font-weight='700' fill='${ theme.TexteDoux }' textLength='${ largeurTexte }' lengthAdjust='spacing'>${ Echapper( texte ) }</text>
+</g>`;
+}
+
+function DessinerEtape( theme, etape, index, chronologie )
+{
+	const [ x, y ] = RouteParcours[ index ].slice( 6 );
+	const dessus = index % 2 === 1;
+	const lignes = DecouperLignes( etape.Description, 13.5, 215 );
+	const yEtiquette = dessus ? 46 : 340;
+	const yConnexion = dessus ? [ 122, y - 19 ] : [ y + 19, 318 ];
+	const arrivee = chronologie.Arrivees[ index ];
+	const description = lignes
+		.map( ( ligne, rang ) => `<text class='sans' x='${ x }' y='${ yEtiquette + 46 + rang * 18 }' font-size='13.5' fill='${ theme.TexteDoux }' text-anchor='middle'>${ Echapper( ligne ) }</text>` )
+		.join( '' );
+	return `<g class='ap'${ Delai( 0.3 + index * 0.15 ) }>
+<path d='M${ x } ${ yConnexion[ 0 ] } V${ yConnexion[ 1 ] }' stroke='${ theme.Bordure }' stroke-width='1.5' stroke-dasharray='3 4'/>
+<text class='mono' x='${ x }' y='${ yEtiquette }' font-size='12' font-weight='700' fill='${ theme.Accent }' letter-spacing='1.4' text-anchor='middle'>${ Echapper( etape.Etiquette ) }</text>
+<text class='sans' x='${ x }' y='${ yEtiquette + 24 }' font-size='19' font-weight='700' fill='${ theme.Texte }' text-anchor='middle'>${ Echapper( etape.Titre ) }</text>
+${ description }
+</g>
+<g class='ap'${ Delai( 0.3 + index * 0.15 ) }>
+<circle cx='${ x }' cy='${ y }' r='15' fill='${ theme.Surface }' stroke='${ theme.TexteFaible }' stroke-width='2.5'>${ AnimerBascule( 'fill', theme.Surface, theme.Accent, arrivee, chronologie.Duree ) }${ AnimerBascule( 'stroke', theme.TexteFaible, theme.Accent, arrivee, chronologie.Duree ) }</circle>
+<text class='mono' x='${ x }' y='${ y + 4.5 }' font-size='13' font-weight='700' fill='${ theme.TexteDoux }' text-anchor='middle'>${ index + 1 }${ AnimerBascule( 'fill', theme.TexteDoux, '#FFFFFF', arrivee, chronologie.Duree ) }</text>
+</g>`;
+}
+
+function GenererParcours( theme )
+{
+	const hauteur = 430;
+	const chemin = CheminRoute();
+	const chronologie = CalculerChronologie();
+	const duree = `${ Arrondir( chronologie.Duree ) }s`;
+	const instants = chronologie.Points.map( ( point ) => Arrondir4( point.Temps / chronologie.Duree ) ).join( ';' );
+	const progression = chronologie.Points.map( ( point ) => Arrondir4( point.Fraction ) ).join( ';' );
+	const trace = chronologie.Points.map( ( point ) => Arrondir4( 1 - point.Fraction ) ).join( ';' );
+	const apparition = Arrondir4( AttenteDepartParcours * 0.8 / chronologie.Duree );
+	const depart = Arrondir4( chronologie.TempsDepartFin / chronologie.Duree );
+	const etapes = EtapesParcours.map( ( etape, index ) => DessinerEtape( theme, etape, index, chronologie ) ).join( '\n' );
+	const soleils = SoleilsParcours
+		.map( ( soleil, rang ) =>
+		{
+			const [ x, y ] = PointBezier( RouteParcours[ soleil.Segment ], soleil.Position );
+			return DessinerSoleil( theme, x, y, rang );
+		} )
+		.join( '\n' );
+	const contenu = `<defs>
+${ FormeCarte( 'forme', hauteur ) }
+<pattern id='points' width='22' height='22' patternUnits='userSpaceOnUse'><circle cx='2' cy='2' r='1.1' fill='${ theme.Points }' fill-opacity='.09'/></pattern>
+<pattern id='damier' width='8' height='8' patternUnits='userSpaceOnUse'><rect width='8' height='8' fill='#0C0F13'/><rect width='4' height='4' fill='#F2F4F7'/><rect x='4' y='4' width='4' height='4' fill='#F2F4F7'/></pattern>
+</defs>
+${ Carte( theme, hauteur ) }
+<rect x='1' y='1' width='${ Largeur - 2 }' height='${ hauteur - 2 }' rx='16' fill='url(#points)'/>
+<path d='${ chemin }' fill='none' stroke='${ theme.Bordure }' stroke-width='30' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='${ chemin }' fill='none' stroke='${ theme.SurfaceHaute }' stroke-width='26' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='${ chemin }' fill='none' stroke='${ theme.TexteFaible }' stroke-opacity='.55' stroke-width='1.5' stroke-dasharray='7 9'/>
+<path d='${ chemin }' pathLength='1' fill='none' stroke='${ theme.Accent }' stroke-width='3.5' stroke-linecap='round' stroke-dasharray='1' stroke-dashoffset='1'><animate attributeName='stroke-dashoffset' values='${ trace }' keyTimes='${ instants }' calcMode='linear' dur='${ duree }' repeatCount='indefinite'/></path>
+<path d='M64 237 V263' stroke='${ theme.TexteDoux }' stroke-width='3'/>
+<text class='mono' x='40' y='288' font-size='11' font-weight='700' fill='${ theme.TexteFaible }' letter-spacing='1'>DÉPART</text>
+<rect x='936' y='237' width='8' height='26' fill='url(#damier)' stroke='${ theme.Bordure }'/>
+<text class='mono' x='940' y='288' font-size='11' font-weight='700' fill='${ theme.TexteFaible }' letter-spacing='1' text-anchor='middle'>ARRIVÉE</text>
+${ soleils }
+${ etapes }
+<g opacity='0'>
+<animateMotion path='${ chemin }' rotate='auto' calcMode='linear' keyPoints='${ progression }' keyTimes='${ instants }' dur='${ duree }' repeatCount='indefinite'/>
+<animate attributeName='opacity' values='0;1;1;0' keyTimes='0;${ apparition };${ depart };1' calcMode='linear' dur='${ duree }' repeatCount='indefinite'/>
+${ DessinerVoiture( theme ) }
+</g>`;
+	const resume = EtapesParcours.map( ( etape ) => `${ etape.Etiquette } : ${ etape.Titre }` ).join( ', ' );
+	return Svg( hauteur, `Parcours : ${ resume }, avec des jobs d'été`, '', contenu );
+}
+
 function GenererDefilement( theme )
 {
 	const hauteurPuce = 34;
@@ -859,6 +1063,7 @@ for ( const [ nomTheme, theme ] of Object.entries( Themes ) )
 		[ 'entete', GenererEntete( theme ) ],
 		[ 'presentation', GenererPresentation( theme ) ],
 		[ 'fiche', GenererFiche( theme ) ],
+		[ 'parcours', GenererParcours( theme ) ],
 		[ 'stack', GenererStack( theme ) ],
 		[ 'defilement', GenererDefilement( theme ) ],
 		[ 'pied', GenererPied( theme ) ],

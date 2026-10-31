@@ -29,7 +29,19 @@
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-02.svg">
-	<img src="./assets/clair/titre-02.svg" width="100%" alt="02 — Projets phares">
+	<img src="./assets/clair/titre-02.svg" width="100%" alt="02 — Parcours">
+</picture>
+
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/parcours.svg">
+	<img src="./assets/clair/parcours.svg" width="100%" alt="Parcours : BUT 1 (les fondations), un job d'été, première application MateZone, un job d'été, BUT 2 et stage .NET, CDD analyste développeur, puis BUT 3 en alternance full stack .NET.">
+</picture>
+
+<br>
+
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-03.svg">
+	<img src="./assets/clair/titre-03.svg" width="100%" alt="03 — Projets phares">
 </picture>
 
 <a href="https://github.com/Joshua-Hermilly/MateZone">
@@ -79,8 +91,8 @@
 <br>
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-03.svg">
-	<img src="./assets/clair/titre-03.svg" width="100%" alt="03 — Autres projets">
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-04.svg">
+	<img src="./assets/clair/titre-04.svg" width="100%" alt="04 — Autres projets">
 </picture>
 
 | Projet | Cadre | En bref | Stack |
@@ -94,8 +106,8 @@
 <br>
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-04.svg">
-	<img src="./assets/clair/titre-04.svg" width="100%" alt="04 — Stack technique">
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-05.svg">
+	<img src="./assets/clair/titre-05.svg" width="100%" alt="05 — Stack technique">
 </picture>
 
 <picture>
@@ -106,8 +118,8 @@
 <br>
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-05.svg">
-	<img src="./assets/clair/titre-05.svg" width="100%" alt="05 — Contact">
+	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/titre-06.svg">
+	<img src="./assets/clair/titre-06.svg" width="100%" alt="06 — Contact">
 </picture>
 
 <p align="center">
