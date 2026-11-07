@@ -59,12 +59,19 @@
 	<a href="https://github.com/Joshua-Hermilly/MateZone/releases"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-release.svg"><img src="./assets/clair/bouton-release.svg" height="44" alt="Release V1.0"></picture></a>
 </p>
 
-<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/projet-paddock.svg">
-	<img src="./assets/clair/projet-paddock.svg" width="100%" alt="Paddock — Suivi des statistiques de Formule 1 : API ASP.NET en Clean Architecture, worker Jolpica, client Angular, SQL Server. En développement.">
-</picture>
+<a href="https://github.com/Joshua-Hermilly/MateZone">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/projet-paddock.svg">
+		<img src="./assets/clair/projet-paddock.svg" width="100%" alt="Paddock — Suivi des statistiques de Formule 1 : API ASP.NET en Clean Architecture, worker Jolpica, client Angular, SQL Server. En développement.">
+	</picture>
+</a>
 
-<br><br>
+<p align="center">
+	<a href="https://github.com/Joshua-Hermilly/Paddock"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-code.svg"><img src="./assets/clair/bouton-code.svg" height="44" alt="Code source"></picture></a>
+	&nbsp;
+	<a href="https://paddock.hermilly.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sombre/bouton-site.svg"><img src="./assets/clair/bouton-site.svg" height="44" alt="Voir le site"></picture></a>
+	&nbsp;
+</p>
 
 <a href="https://github.com/Dono0530/MateSpace">
 	<picture>
