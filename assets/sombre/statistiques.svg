@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='544' viewBox='0 0 1000 544' role='img' aria-label='Statistiques GitHub : 388 contributions sur 12 mois, 59 jours actifs, 2 pull requests, s&#233;rie actuelle 0 jours, 12 d&#233;p&#244;ts publics, 3 &#233;toiles. Langages : Java 45.6 %, HTML 22.9 %, PHP 12.5 %, CSS 9.6 %, JavaScript 7.0 %, Twig 2.1 %, Autres 0.4 %'>
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='544' viewBox='0 0 1000 544' role='img' aria-label='Statistiques GitHub : 391 contributions sur 12 mois, 60 jours actifs, 2 pull requests, s&#233;rie actuelle 1 jours, 12 d&#233;p&#244;ts publics, 3 &#233;toiles. Langages : Java 45.6 %, HTML 22.9 %, PHP 12.5 %, CSS 9.6 %, JavaScript 7.0 %, Twig 2.1 %, Autres 0.4 %'>
 <style>
 .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
 .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
@@ -28,20 +28,20 @@
 </g>
 <circle cx='28' cy='22' r='6' fill='#FF5F57'/><circle cx='48' cy='22' r='6' fill='#FEBC2E'/><circle cx='68' cy='22' r='6' fill='#28C840'/>
 <text class='mono' x='500' y='27' font-size='13' fill='#9BA5B3' text-anchor='middle'>joshua-hermilly &#8212; statistiques.json</text>
-<text class='mono' x='972' y='27' font-size='12' fill='#5F6977' text-anchor='end'>mis &#224; jour le 12 nov. 2026</text>
+<text class='mono' x='972' y='27' font-size='12' fill='#5F6977' text-anchor='end'>mis &#224; jour le 13 nov. 2026</text>
 <text class='mono' x='28' y='74' font-size='11' font-weight='700' fill='#FF3B30' letter-spacing='1.4'>TABLEAU DE BORD &#183; 12 DERNIERS MOIS</text>
 <g class='ap' style='animation-delay:0.15s'>
 <rect x='28' y='90' width='147.33' height='100' rx='12' fill='#1A2029' stroke='#2A313C' stroke-width='1.5'/>
 <path d='M42 91.5 H161.33' stroke='#FF3B30' stroke-width='3' stroke-linecap='round'/>
 <text class='mono' x='101.67' y='118' font-size='10.5' font-weight='700' fill='#FF3B30' letter-spacing='1.1' text-anchor='middle'>CONTRIBUTIONS</text>
-<text class='sans' x='101.67' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>388</text>
+<text class='sans' x='101.67' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>391</text>
 <text class='mono' x='101.67' y='176' font-size='10.5' fill='#5F6977' text-anchor='middle'>sur 12 mois</text>
 </g>
 <g class='ap' style='animation-delay:0.23s'>
 <rect x='187.33' y='90' width='147.33' height='100' rx='12' fill='#1A2029' stroke='#2A313C' stroke-width='1.5'/>
 <path d='M201.33 91.5 H320.66' stroke='#3FB950' stroke-width='3' stroke-linecap='round'/>
 <text class='mono' x='261' y='118' font-size='10.5' font-weight='700' fill='#3FB950' letter-spacing='1.1' text-anchor='middle'>JOURS ACTIFS</text>
-<text class='sans' x='261' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>59</text>
+<text class='sans' x='261' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>60</text>
 <text class='mono' x='261' y='176' font-size='10.5' fill='#5F6977' text-anchor='middle'>sur 12 mois</text>
 </g>
 <g class='ap' style='animation-delay:0.31s'>
@@ -55,7 +55,7 @@
 <rect x='505.99' y='90' width='147.33' height='100' rx='12' fill='#1A2029' stroke='#2A313C' stroke-width='1.5'/>
 <path d='M519.99 91.5 H639.32' stroke='#D29922' stroke-width='3' stroke-linecap='round'/>
 <text class='mono' x='579.66' y='118' font-size='10.5' font-weight='700' fill='#D29922' letter-spacing='1.1' text-anchor='middle'>S&#201;RIE ACTUELLE</text>
-<text class='sans' x='579.66' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>0 j</text>
+<text class='sans' x='579.66' y='155' font-size='36' font-weight='800' fill='#E8ECF1' text-anchor='middle'>1 j</text>
 <text class='mono' x='579.66' y='176' font-size='10.5' fill='#5F6977' text-anchor='middle'>record : 6 j</text>
 </g>
 <g class='ap' style='animation-delay:0.47s'>
@@ -78,8 +78,8 @@
 <path d='M62 356 H972' stroke='#2A313C' stroke-width='1.5'/>
 <text class='mono' x='52' y='250' font-size='10.5' fill='#5F6977' text-anchor='end'>83</text>
 <text class='mono' x='52' y='360' font-size='10.5' fill='#5F6977' text-anchor='end'>0</text>
-<path class='ap' style='animation-delay:0.6s' d='M62 333.47 L79.5 332.14 L97 356 L114.5 353.35 L132 296.36 L149.5 246 L167 354.67 L184.5 356 L202 353.35 L219.5 356 L237 356 L254.5 352.02 L272 350.7 L289.5 353.35 L307 354.67 L324.5 354.67 L342 341.42 L359.5 320.22 L377 326.84 L394.5 352.02 L412 356 L429.5 354.67 L447 354.67 L464.5 356 L482 354.67 L499.5 345.4 L517 356 L534.5 356 L552 356 L569.5 353.35 L587 356 L604.5 356 L622 356 L639.5 354.67 L657 356 L674.5 356 L692 356 L709.5 353.35 L727 352.02 L744.5 356 L762 356 L779.5 356 L797 354.67 L814.5 356 L832 329.49 L849.5 356 L867 356 L884.5 354.67 L902 356 L919.5 356 L937 261.9 L954.5 317.57 L972 349.37 L972 356 L62 356 Z' fill='url(#aire)'/>
-<path class='tr' pathLength='1' d='M62 333.47 L79.5 332.14 L97 356 L114.5 353.35 L132 296.36 L149.5 246 L167 354.67 L184.5 356 L202 353.35 L219.5 356 L237 356 L254.5 352.02 L272 350.7 L289.5 353.35 L307 354.67 L324.5 354.67 L342 341.42 L359.5 320.22 L377 326.84 L394.5 352.02 L412 356 L429.5 354.67 L447 354.67 L464.5 356 L482 354.67 L499.5 345.4 L517 356 L534.5 356 L552 356 L569.5 353.35 L587 356 L604.5 356 L622 356 L639.5 354.67 L657 356 L674.5 356 L692 356 L709.5 353.35 L727 352.02 L744.5 356 L762 356 L779.5 356 L797 354.67 L814.5 356 L832 329.49 L849.5 356 L867 356 L884.5 354.67 L902 356 L919.5 356 L937 261.9 L954.5 317.57 L972 349.37' fill='none' stroke='#FF3B30' stroke-width='2.4' stroke-linejoin='round' stroke-linecap='round' style='animation-delay:0.3s'/>
+<path class='ap' style='animation-delay:0.6s' d='M62 333.47 L79.5 332.14 L97 356 L114.5 353.35 L132 296.36 L149.5 246 L167 354.67 L184.5 356 L202 353.35 L219.5 356 L237 356 L254.5 352.02 L272 350.7 L289.5 353.35 L307 354.67 L324.5 354.67 L342 341.42 L359.5 320.22 L377 326.84 L394.5 352.02 L412 356 L429.5 354.67 L447 354.67 L464.5 356 L482 354.67 L499.5 345.4 L517 356 L534.5 356 L552 356 L569.5 353.35 L587 356 L604.5 356 L622 356 L639.5 354.67 L657 356 L674.5 356 L692 356 L709.5 353.35 L727 352.02 L744.5 356 L762 356 L779.5 356 L797 354.67 L814.5 356 L832 329.49 L849.5 356 L867 356 L884.5 354.67 L902 356 L919.5 356 L937 261.9 L954.5 317.57 L972 345.4 L972 356 L62 356 Z' fill='url(#aire)'/>
+<path class='tr' pathLength='1' d='M62 333.47 L79.5 332.14 L97 356 L114.5 353.35 L132 296.36 L149.5 246 L167 354.67 L184.5 356 L202 353.35 L219.5 356 L237 356 L254.5 352.02 L272 350.7 L289.5 353.35 L307 354.67 L324.5 354.67 L342 341.42 L359.5 320.22 L377 326.84 L394.5 352.02 L412 356 L429.5 354.67 L447 354.67 L464.5 356 L482 354.67 L499.5 345.4 L517 356 L534.5 356 L552 356 L569.5 353.35 L587 356 L604.5 356 L622 356 L639.5 354.67 L657 356 L674.5 356 L692 356 L709.5 353.35 L727 352.02 L744.5 356 L762 356 L779.5 356 L797 354.67 L814.5 356 L832 329.49 L849.5 356 L867 356 L884.5 354.67 L902 356 L919.5 356 L937 261.9 L954.5 317.57 L972 345.4' fill='none' stroke='#FF3B30' stroke-width='2.4' stroke-linejoin='round' stroke-linecap='round' style='animation-delay:0.3s'/>
 <text class='mono' x='62' y='378' font-size='10.5' fill='#5F6977'>nov.</text><text class='mono' x='132' y='378' font-size='10.5' fill='#5F6977'>d&#233;c.</text><text class='mono' x='202' y='378' font-size='10.5' fill='#5F6977'>janv.</text><text class='mono' x='272' y='378' font-size='10.5' fill='#5F6977'>f&#233;vr.</text><text class='mono' x='342' y='378' font-size='10.5' fill='#5F6977'>mars</text><text class='mono' x='429.5' y='378' font-size='10.5' fill='#5F6977'>avr.</text><text class='mono' x='499.5' y='378' font-size='10.5' fill='#5F6977'>mai</text><text class='mono' x='587' y='378' font-size='10.5' fill='#5F6977'>juin</text><text class='mono' x='657' y='378' font-size='10.5' fill='#5F6977'>juil.</text><text class='mono' x='727' y='378' font-size='10.5' fill='#5F6977'>ao&#251;t</text><text class='mono' x='814.5' y='378' font-size='10.5' fill='#5F6977'>sept.</text><text class='mono' x='884.5' y='378' font-size='10.5' fill='#5F6977'>oct.</text><text class='mono' x='954.5' y='378' font-size='10.5' fill='#5F6977'>nov.</text>
 <g class='ap' style='animation-delay:1.4s'><circle cx='149.5' cy='246' r='5.5' fill='#12161D' stroke='#FF3B30' stroke-width='2.5'/><text class='mono' x='163.5' y='250' font-size='11' font-weight='700' fill='#E8ECF1' text-anchor='start'>pic : 83 contributions</text></g>
 <text class='mono' x='28' y='418' font-size='11' font-weight='700' fill='#FF3B30' letter-spacing='1.4'>R&#201;PARTITION &#183; LANGAGES DES D&#201;P&#212;TS PUBLICS</text>
